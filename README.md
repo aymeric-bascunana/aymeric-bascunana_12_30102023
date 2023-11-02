@@ -1,229 +1,157 @@
-<!-- PROJECT LOGO -->
-<br />
-<p align="center">
-  <h1 align="center">Developer's Portfolio ✨</h1>
+# React Portfolio, multiple pages with dark mode
 
-  <p align="center">
-    It is a personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects. Site URL / Demo: 
-    <a href="https://hashirshoaeb.github.io/home">hashirshoaeb.github.io/home</a>
-    <br />
-    <br />
-    <a href="https://hashirshoaeb.github.io">About Me</a>
-  </p>
-</p>
+## a portfolio for developers
 
-![GitHub contributors](https://img.shields.io/github/contributors/hashirshoaeb/home?color=ffcc66&style=for-the-badge)
-![GitHub stars](https://img.shields.io/github/stars/hashirshoaeb/home?color=ffcc66&style=for-the-badge)
-[![GitHub forks](https://img.shields.io/github/forks/hashirshoaeb/home?style=for-the-badge)](https://github.com/hashirshoaeb/star_book/network)
-[![GitHub issues](https://img.shields.io/github/issues/hashirshoaeb/home?color=ffcc66&style=for-the-badge)](https://github.com/hashirshoaeb/star_book/issues)
-[![GitHub license](https://img.shields.io/github/license/hashirshoaeb/home?style=for-the-badge)](https://github.com/hashirshoaeb/home/blob/master/LICENSE)
-[![Twitter Follow](https://img.shields.io/twitter/follow/hashirshoaeb?color=ffcc66&logo=twitter&logoColor=ffffff&style=for-the-badge)](https://twitter.com/hashirshoaeb)
-[![Node Version](https://img.shields.io/static/v1?label=Node&message=v18.13.0&color=026e00&style=for-the-badge)](https://nodejs.org)
-[![npm Version](https://img.shields.io/static/v1?label=npm&message=8.11.0&color=cb0000&style=for-the-badge)](https://nodejs.org)
+![screenshot](https://andy8647.com/website.jpg)
 
-[![Site preview](/public/social-image.png)](https://hashirshoaeb.github.io/home)
+[View Live Demo](https://andy8647.com/)
 
-## Table of Contents
+Attention: This is based on paytonjewell's [react-portfolio-template](https://github.com/paytonjewell/ReactPortfolioTemplate)
+I just added particlets background, OS dark mode detection and watch, Google Analytics.
+Elements redesigned by [Ingrid Fei](https://ingrid0126.com)
 
-- [Technology Stack 🛠️](#technology-stack-)
-- [Structure ⚓](#structure-)
-- [Sharing 💗](#sharing-)
-- [Prerequisites 🍪](#prerequisites-)
-- [Setup And Deployment 🔧](#setup-and-deployment-)
-- [Contributing 🙌](#contributing-)
-- [Issues](#issues)
-- [Upcoming Features / Improvements 🔗](#upcoming-features-/-improvements-)
-- [Showcase 🚀](#showcase-)
-- [Versão em Português :brazil:](#versao-em-portugues-)
 
-## Technology Stack 🛠️
+### Original README:
 
-Dependencies defined in package.json:
+## Features
 
-[Reactjs](https://reactjs.org/)
-| [Bootstrap](https://getbootstrap.com/)
-| [Typist](https://github.com/jstejada/react-typist)
-| [GitHub API](https://developer.github.com/v3/repos/)
-| [Instagram API](https://www.instagram.com/developer/embedding/)
+🌑 Dark Mode Toggler and OS dark mode detection
 
-## Structure ⚓
+📱Social Media Presence meta tags
 
-- Navigation bar (optional)
-- Body
-  - Name | Profession
-  - Contact / Follow / Find me / Facebook / LinkedIn / GitHub / Instagram / Email / CodePen
-  - Resume | About me
-- About Me
-  - Display picture (optional)
-  - About myself, my Interests, Goals and Hobbies
-  - Things I'm good at (Skills)
-  - Resume button
-- Recent Projects (using GitHub API) (optional)
-- Leadership (optional)
-  - Paragraph
-  - Carousel images
-- Skills (optional)
-  - Technical Skills
-  - Soft Skills
-- Footer
-  - Footer Note (optional)
-  - Copyrights - open source
-  - Acknowledgements(
+📊 Google Analytics
 
-## Sharing 💗
+📖 Multiple Pages (React Router)
 
-Project is open source. Feel free to make your own version. All you need to do is to fork this repository, edit [src/editable-stuff/config.js](./src/editable-stuff/config.js) and add resume. Mark star ⭐ if you like the project.
+📱 Fully Responsive
 
-## Prerequisites 🍪
+🎨 Modern Design
 
-You should have [Node.js](https://nodejs.org/en/) and [Git](https://git-scm.com/) installed on your PC. You should also own a GitHub account.
+💡 Perfect Lighthouse Score
 
-## Setup And Deployment 🔧
+![screenshot of perfect lighthouse score](https://user-images.githubusercontent.com/18350557/179609620-847374a6-23e6-4432-b7a8-181d7d9bf026.png)
 
-1. To Get Started, Fork this repository to your GitHub account:
-2. Clone the forked repo from your account using:
+---
 
-   ```bash
-     git clone https://github.com/<your-username>/home.git
-   ```
+## Getting started
 
-3. Open in editor and edit [src/editable-stuff/config.js](./src/editable-stuff/config.js) file.
+### prerequisites
 
-4. Add your resume as <resume.pdf> in place of [src/editable-stuff/resume.pdf](./src/editable-stuff/)
+- have [Git](https://git-scm.com/) installed on your machine
+- have [Node.js](https://nodejs.org/en/download/) installed on your machine
+- basic familiarity with your machine's command line
+- basic understanding of JSON data outline (arrays of objects basically)
 
-5. Edit [title](./public/index.html#L34) and meta [description](./public/index.html#L13) in [public/index.html](./public/index.html).
-6. Change URL in [package.json](./package.json) file:
+## how to use
 
-   ```json
-    "homepage": "https://<your-username>.github.io/home"
-   ```
+- fork the repository and clone locally
+- cd into the project and run `npm install` to install dependencies
+- once installation is complete, run `npm run start` to get your local copy running in the browser.
 
-   Or for deployment at custom domain, refer [create-react-app.dev](https://create-react-app.dev/docs/deployment/#step-1-add-homepage-to-packagejson)
+## template instructions
 
-7. After editing run the following bash commands:
+### 1. replace the images
 
-   ```bash
-   npm install
-   npm start
-   ```
+- replace `/src/assets/img/self.png`
+- replace `/public/favicon.ico`
+- replace `/public/website.jpg` (this is the image that shows up when you share the link on social media, you can take a screen shot when the infomation has been filled out)
 
-8. To deploy website, run:
+### 2. Your Information
 
-   ```bash
-    npm run build
-    npm run deploy
-   ```
+- edit `assets/info/Info.js` There are some instructions written in the comments there.
+- replace `/public/resume.pdf` with your own resume, the link to the file is `https://yoursubdomain.yourdomain/resume.pdf
 
-   Or for deployment at \<username>.github.io, refer [READMEdocs/custom-deployment.md](./READMEdocs/custom-deployment.md) and [pages.js](./pages.js)
+### 3. Color Scheme
 
-9. Congrats your site is up and running. To see it live, visit:
+#### Main Gradient
 
-   ```https
-     https://<your-username>.github.io/home
-   ```
+For the main gradient, you can change the colors in `/src/assets/colors/mainGradient.js`:
 
-10. To change the thumbnail image:
+```js
+export let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
+```
 
-    - Navigate to the "public" folder.  
-    - There you will see "social-image.png".  
-    - Delete it.   
-    - Take a screenshot of your version and rename it "social-image.png" and place it there.  
-    
-   Next time if you make changes, repeat from step 8.
+#### Particles Background Color
 
-Facing issues? Feel free to contact at hashirshoaeb@gmail.com.
+For the particles background color, you can change the colors in `/src/assets/colors/particlesBg.js`
+These are the colors I picked from iTerm2's color schemes, but you can use whatever you like.
 
-## Showcase 🚀
+```js
+export const particleBgColors = () => {
+  // for dark use atom one dark, for light use CLRS
+  const background = (darkMode = false) => (darkMode ? '#0d2538' : '#DCD6C8');
+  const particle = (darkMode = false) => (darkMode ? '#c678dd' : '#5C7C8A');
+  const links = (darkMode = false) => (darkMode ? '#98c379' : '#E7B669');
 
-Have you changed something in the code to create your own version? Feel free to share with me, I will list them in this space.
+  return {
+    background,
+    particle,
+    links,
+  };
+};
+```
+### 4. Google Analytics Credentials
 
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/justiceserv/justiceserv.github.io">
-        <img src="READMEdocs/justiceserv-github-io-home.gif" width="300px" alt="" />
-        <br />
-        <sub><b>Guhyun Chung</b></sub>
-      </a>
-      <br />
-    </td>
-    <td align="center">
-      <a href="https://github.com/hamzasohail0/home/">
-        <img src="READMEdocs/hamzasohail0-github-io-home.gif" width="300px" alt="" />
-        <br />
-        <sub><b>Hamza Sohail</b></sub>
-      </a>
-      <br />
-    </td>
-    <td align="center">
-      <a href="https://github.com/AymunTariq/home/">
-        <img src="READMEdocs/aymuntariq-github-io-home.gif" width="300px" alt="" />
-        <br />
-        <sub><b>Aymun Tariq</b></sub>
-      </a>
-      <br />
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/anaashrafi/home/">
-        <img src="READMEdocs/anaashrafi-github-io-home.gif" width="300px" alt="" />
-        <br />
-        <sub><b>Ana Ashrafi</b></sub>
-      </a>
-      <br />
-    </td>
-    <td align="center">
-      <a href="https://github.com/jefferyjohn/home/">
-        <img src="READMEdocs/jefferyjohn-github-io-home.gif" width="300px" alt="" />
-        <br />
-        <sub><b>Jeffery John</b></sub>
-      </a>
-      <br />
-    </td>
-    <td align="center">
-      <a href="https://github.com/remimestdagh/home/">
-        <img src="READMEdocs/remimestdagh-github-io-home.gif" width="300px" alt="" />
-        <br />
-        <sub><b>Remi Mestdagh</b></sub>
-      </a>
-      <br />
-    </td>
-  </tr>
-    <tr>
-    <td align="center">
-      <a href="https://github.com/xunxdd/portfolio/tree/master">
-        <br />
-        <sub><b>Xun Ding</b></sub>
-      </a>
-      <br />
-    </td>    
-    <td align="center">
-      <a href="https://github.com/S-Philp/Shannel.philp">
-        <br />
-        <sub><b>Shannel Philp</b></sub>
-      </a>
-      <br />
-    </td>    
-    <td align="center">
-      <a href="https://github.com/bibinvargheset/home">
-        <br />
-        <sub><b>Bibin Varghese</b></sub>
-      </a>
-      <br />
-    </td>
-  </tr>
-</table>
+- edit `/src/utils/log.js`
 
-## Versão em Português :brazil:
+```js
+// fill with your own google analytics credentials
+const firebaseConfig = {
+  apiKey: '',
+  authDomain: '',
+  projectId: '',
+  storageBucket: '',
+  messagingSenderId: '',
+  appId: '',
+  measurementId: '',
+};
+```
 
-Esse projeto foi traduzido para português! Se você gostou dele e quer criar a sua própria versão, confira o repositório do [@tashima42](https://github.com/tashima42) em [https://github.com/Tashima42/home](https://github.com/Tashima42/home).
-Novas contribuições e revisões na tradução são muito bem vindas!
+### 5. Social Media Presence meta tags
+- edit `/public/index.html`
+- for meta tags, you can use the generator [here](https://metatags.io/)
+- [twitter example](https://twitter.com/Andy8647L/status/1633956293986664448)
 
-## Notice:
+```html
+<!-- Social Media Previews -->
+    <!-- Primary Meta Tags -->
+    <title>Andy Luo, Full Stack Developer</title>
+    <meta name="title" content="Andy Luo, Full Stack Developer">
+    <meta name="description" content="Full Stack Developer and Freelance Photographer based in Toronto, passionate about building web applications, learning new technologies, traveling and exploring new places.">
 
-This project has been archived. Means that it is no longer actively maintained by developer. Free free to fork, use and maintain your own version. You can check my new portfolio template [here](https://github.com/hashirshoaeb/portfolio)
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://andy8647.com/">
+    <meta property="og:title" content="Andy Luo, Full Stack Developer">
+    <meta property="og:description" content="Full Stack Developer and Freelance Photographer based in Toronto, passionate about building web applications, learning new technologies, traveling and exploring new places.">
+    <meta property="og:image" content="https://andy8647.com/website.jpg">
 
-## Stargazers over time
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://andy8647.com/">
+    <meta property="twitter:title" content="Andy Luo, Full Stack Developer">
+    <meta property="twitter:description" content="Full Stack Developer and Freelance Photographer based in Toronto, passionate about building web applications, learning new technologies, traveling and exploring new places.">
+    <meta property="twitter:image" content="https://andy8647.com/website.jpg">
+```
 
-[![Stargazers over time](https://starchart.cc/hashirshoaeb/home.svg)](https://starchart.cc/hashirshoaeb/home)
+
+### 6. Deployment
+
+I recommend using [Netlify](https://www.netlify.com/) for deployment. It's free and easy to use. You can follow the instructions [here](https://docs.netlify.com/site-deploys/create-deploys/#deploy-with-git) to deploy your site.
+
+P.S. If you are using Netlify, to resolved the bug from `react-router-dom`, you need to add a `_redirects` file in the `public` folder and add the following code:
+
+```
+/*    /index.html   200
+```
+
+---
+
+And you're done!
+
+If you have any questions or issues with the setup process, feel free to contact me by any of the means below:
+
+[Twitter](https://twitter.com/Andy8647L) | andy8647lgc@gmail.com
+
+Finally, thanks to the original author [paytonjewell](https://github.com/paytonjewell) for the well built template.
+
