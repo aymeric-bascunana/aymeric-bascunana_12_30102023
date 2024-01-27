@@ -1,17 +1,17 @@
 import { NavLink } from "react-router-dom";
-import "./ResponsiveHeader.scss";
+import "./Header.scss";
 
 function Header() {
   return (
     <header className="header">
-      {/* <img className="img-header" src={logo}></img> */}
+      <h1>Portfolio</h1>
       <nav>
-        <NavLink className="lien" to="/">
+        {/* <NavLink className="lien" to="/">
           Accueil
         </NavLink>
         <NavLink className="lien" to="/About">
           A Propos
-        </NavLink>
+        </NavLink> */}
       </nav>
     </header>
   );
