@@ -1,4 +1,13 @@
+.header {
+  background-color: #8b6f6f;
+  padding: 1px;
+  height: 400px;
+}
+
 h1 {
   position: relative;
-  left: 165px;
+  left: 60px;
+  top: 120px;
+  display: flex;
+  justify-content: center;
 }
