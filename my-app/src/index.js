@@ -5,7 +5,7 @@ import "./index.css";
 // import App from "./App";
 import Home from "./views/Home/Home";
 import reportWebVitals from "./reportWebVitals";
-import Header from "./components/Header/Header";
+
 // import About from "./views/About/About";
 // import Footer from "./components/footer/footer";
 
@@ -14,7 +14,6 @@ root.render(
   //<App />
   <React.StrictMode>
     <BrowserRouter>
-      <Header />
       <Home />
       <Routes>
         {/* <Route path="/" element={<Home />} /> */}

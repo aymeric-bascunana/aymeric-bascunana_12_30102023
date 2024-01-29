@@ -1,10 +1,11 @@
 import React from "react";
-import "../Project/Project.scss";
+import "./Project.scss";
 
 function Project() {
   return (
     <>
-      <section id="Body-text" className="Project-Contenant">
+      <section id="Ancre-project" className="Project-Contenant">
+        <div id="Body-text"></div>
         <h2>Mes Projects</h2>
         <h3>Voici quelque project que j'ai réalsier durant ma formation</h3>
       </section>

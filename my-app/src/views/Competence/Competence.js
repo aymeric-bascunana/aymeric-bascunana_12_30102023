@@ -4,7 +4,7 @@ import "../Competence/Competence.scss";
 function Compétence() {
   return (
     <>
-      <section className="Competence-Contenant">
+      <section id="Ancre-competence" className="Competence-Contenant">
         <h2 id="Body-text"> Mes Compétences</h2>
         <ul id="Body-text" className="block-list">
           <li className="list-Competence"></li>

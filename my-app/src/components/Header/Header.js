@@ -4,15 +4,17 @@ import "./Header.scss";
 function Header() {
   return (
     <header className="header">
-      <h1>Portfolio</h1>
-      <nav>
-        {/* <NavLink className="lien" to="/">
+      <div id="Body-text">
+        <h1 id="Ancre-accueil">Portfolio</h1>
+        <nav>
+          {/* <NavLink className="lien" to="/">
           Accueil
-        </NavLink>
-        <NavLink className="lien" to="/About">
+          </NavLink>
+          <NavLink className="lien" to="/About">
           A Propos
         </NavLink> */}
-      </nav>
+        </nav>
+      </div>
     </header>
   );
 }
