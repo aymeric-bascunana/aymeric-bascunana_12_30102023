@@ -5,7 +5,12 @@ function Diplome() {
   return (
     <>
       <section id="Ancre-diplome" className="Diplome-Contenant">
-        <h2 id="Body-text"> Mes Diplome</h2>
+        <div id="Body-text">
+          <h2> Mes Diplome</h2>
+          <ul>
+            <li>Diplome obtenu: Bac Pro Commerce lieu: Nîmes </li>
+          </ul>
+        </div>
       </section>
     </>
   );
