@@ -1,0 +1,20 @@
+.Projet-Contenant {
+  background-color: #ababab;
+  padding: 10px;
+  height: 400px;
+}
+
+.Box-projet {
+  .Projet {
+    background-color: white;
+    width: 210px;
+    height: 210px;
+    border-radius: 20px;
+  }
+
+  .Text-projet {
+    position: relative;
+    top: 170px;
+    left: 10px;
+  }
+}

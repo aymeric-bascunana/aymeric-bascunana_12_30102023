@@ -4,7 +4,7 @@ import "../Home/Home.scss";
 import Header from "../../components/Header/Header";
 import About from "../About/About";
 import Compétence from "../Competence/Competence";
-import Project from "../Project/Project";
+import Projet from "../Projet/Projet";
 import Diplome from "../Diplome/Diplome";
 import Language from "../Language/Language";
 import Footer from "../Footer/Footer";
@@ -40,7 +40,7 @@ function Home() {
       <Header />
       <About />
       <Compétence />
-      <Project />
+      <Projet />
       <Diplome />
       <Language />
       <Footer />
