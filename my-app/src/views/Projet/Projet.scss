@@ -10,11 +10,26 @@
     width: 210px;
     height: 210px;
     border-radius: 20px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 0;
   }
 
   .Text-projet {
     position: relative;
-    top: 170px;
+    top: 155px;
     left: 10px;
+    color: black;
+    font-weight: 900;
+    font-size: 20px;
+  }
+
+  .img-banner {
+    width: 210px;
+    height: 210px;
+    border-radius: 20px;
+    object-fit: contain;
+    position: relative;
+    z-index: 1;
   }
 }

@@ -5,6 +5,7 @@ import "./index.css";
 // import App from "./App";
 import Home from "./views/Home/Home";
 import reportWebVitals from "./reportWebVitals";
+import Projet1 from "./components/PageProjet1/PageProjet1";
 
 // import About from "./views/About/About";
 // import Footer from "./components/footer/footer";
@@ -14,11 +15,10 @@ root.render(
   //<App />
   <React.StrictMode>
     <BrowserRouter>
-      <Home />
       <Routes>
-        {/* <Route path="/" element={<Home />} /> */}
+        <Route path="/" element={<Home />} />
+        <Route path="/PageProjet1" element={<Projet1 />} />
         {/* <Route path="/Logement/:id" element={<Logement />} /> */}
-        {/* <Route path="/About" element={<About />} /> */}
         {/* <Route path="*" element={<Error />} /> */}
       </Routes>
       {/* <Footer /> */}
