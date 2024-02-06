@@ -12,6 +12,24 @@
   object-fit: cover;
 }
 
+.carousel:hover {
+}
 .type-projet {
   margin: 50px 0px 0px 0px;
+}
+
+.lien {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  font-size: 30px;
+  color: black;
+}
+
+.lien:hover {
+  font-size: 33px;
+}
+
+.Paragraphe-about {
+  margin: 0px;
 }

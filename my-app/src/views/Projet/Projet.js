@@ -13,13 +13,22 @@ function Projet() {
           <div className="Box-projet">
             <Link to="/PageProjet1">
               <img className="img-banner" src={image} />
-              {/* <a href="https://aymeric-bascunana.github.io/aymeric-bascunana_4_13042023/"> */}
+
               <div className="Projet">
                 <p className="Text-projet">Projet 1</p>
               </div>
-              {/* </a> */}
             </Link>
           </div>
+
+          {/* <div className="Box-projet">
+            <Link to="/PageProjet2">
+              <img className="img-banner" src={image} />
+
+              <div className="Projet">
+                <p className="Text-projet">Projet 1</p>
+              </div>
+            </Link>
+          </div> */}
         </div>
       </section>
     </>
