@@ -1,5 +1,7 @@
 import React from "react";
 import "../Footer/Footer.scss";
+import X from "../../assets/Logo-X.png";
+import instagram from "../../assets/Logo-insta.png";
 
 function Footer() {
   return (
@@ -10,8 +12,8 @@ function Footer() {
             <li>Numéro de téléphone: 01.02.03.04.05</li>
             <li>E-mail: Adressemail@gmail.com</li>
             <li>
-              <img src="../../assets/Logo-x"></img>
-              <img src="../../assets/Logo-insta"></img>
+              <img className="twitter" src={X}></img>
+              <img className="insta" src={instagram}></img>
             </li>
           </ul>
         </div>

@@ -6,6 +6,7 @@ import "./index.css";
 import Home from "./views/Home/Home";
 import reportWebVitals from "./reportWebVitals";
 import Projet1 from "./components/PageProjet1/PageProjet1";
+import Projet2 from "./components/PageProjet2/PageProjet2";
 
 // import About from "./views/About/About";
 // import Footer from "./components/footer/footer";
@@ -18,6 +19,7 @@ root.render(
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/PageProjet1" element={<Projet1 />} />
+        <Route path="/PageProjet2" element={<Projet2 />} />
         {/* <Route path="/Logement/:id" element={<Logement />} /> */}
         {/* <Route path="*" element={<Error />} /> */}
       </Routes>

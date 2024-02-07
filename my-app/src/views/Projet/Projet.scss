@@ -11,7 +11,7 @@
     height: 210px;
     border-radius: 20px;
     position: absolute;
-    bottom: 0px;
+    bottom: 215px;
     z-index: 0;
   }
 
@@ -31,5 +31,38 @@
     object-fit: contain;
     position: relative;
     z-index: 1;
+  }
+}
+
+.Box-projet2 {
+  .img-banner2 {
+    width: 210px;
+    height: 210px;
+    border-radius: 20px;
+    object-fit: contain;
+    position: relative;
+    z-index: 1;
+    left: 290px;
+    bottom: 215px;
+  }
+
+  .Projet2 {
+    background-color: white;
+    width: 210px;
+    height: 210px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 215px;
+    left: 290px;
+    z-index: 0;
+  }
+
+  .Text-projet2 {
+    position: relative;
+    top: 155px;
+    left: 10px;
+    color: black;
+    font-weight: 900;
+    font-size: 20px;
   }
 }

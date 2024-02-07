@@ -1,7 +1,8 @@
 import React from "react";
 import "./Projet.scss";
 import { Link } from "react-router-dom";
-import image from "../../assets/TitreOhmyfood.PNG";
+import Ohmyfood from "../../assets/TitreOhmyfood.PNG";
+import Printit from "../../assets/TitrePrintit.PNG";
 
 function Projet() {
   return (
@@ -12,7 +13,7 @@ function Projet() {
           <h3>Voici quelque projet que j'ai réaliser durant ma formation</h3>
           <div className="Box-projet">
             <Link to="/PageProjet1">
-              <img className="img-banner" src={image} />
+              <img className="img-banner" src={Ohmyfood} />
 
               <div className="Projet">
                 <p className="Text-projet">Projet 1</p>
@@ -20,15 +21,15 @@ function Projet() {
             </Link>
           </div>
 
-          {/* <div className="Box-projet">
+          <div className="Box-projet2">
             <Link to="/PageProjet2">
-              <img className="img-banner" src={image} />
+              <img className="img-banner2" src={Printit} />
 
-              <div className="Projet">
-                <p className="Text-projet">Projet 1</p>
+              <div className="Projet2">
+                <p className="Text-projet2">Projet 2</p>
               </div>
             </Link>
-          </div> */}
+          </div>
         </div>
       </section>
     </>

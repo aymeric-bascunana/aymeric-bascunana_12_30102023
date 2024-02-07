@@ -3,9 +3,9 @@ import "./Header.scss";
 
 function Header() {
   return (
-    <header className="header">
+    <header id="Ancre-accueil" className="header">
       <div id="Body-text">
-        <h1 id="Ancre-accueil">Portfolio</h1>
+        <h1>Portfolio</h1>
         <nav>
           {/* <NavLink className="lien" to="/">
           Accueil
