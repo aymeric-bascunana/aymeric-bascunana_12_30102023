@@ -13,6 +13,7 @@ function Home() {
   return (
     <>
       <div className="side-panel">
+        <h2 className="name">Aymeric Bascunana</h2>
         <a id="bouton-scroll" href="#Ancre-accueil">
           Accueil
         </a>

@@ -2,10 +2,11 @@
   position: fixed;
   top: 50%;
   transform: translateY(-50%);
-  background-color: rgb(59, 59, 59);
+  background-color: black;
   padding: 10px;
   height: 100%;
-  width: 7%;
+  width: 9%;
+  z-index: 1;
 }
 
 #bouton-scroll {
@@ -24,4 +25,12 @@
 
 #bouton-scroll:hover {
   background-color: #0056b3;
+}
+
+section {
+  background-color: #171717;
+}
+
+.name {
+  color: white;
 }
