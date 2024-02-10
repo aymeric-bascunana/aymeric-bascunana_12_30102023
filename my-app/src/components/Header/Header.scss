@@ -1,7 +1,14 @@
 .header {
   background-color: #171717;
   padding: 1px;
-  height: 545px;
+  height: 900px;
+}
+
+#header-text {
+  position: relative;
+  top: 190px;
+  left: 165px;
+  color: white;
 }
 
 h1 {
@@ -17,5 +24,5 @@ h1 {
   position: absolute;
   z-index: 0;
   width: 100%;
-  height: 500px;
+  height: 900px;
 }

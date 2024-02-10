@@ -1,12 +1,13 @@
 import React from "react";
 import "./About.scss";
-// import "./ResponsiveAbout.scss";
+import ordi from "../../assets/ordi.png";
 
 function About() {
   return (
     <>
       <section id="Ancre-about" className="About-Contenant">
         <div id="Body-text">
+          <img src={ordi}></img>
           <h2 className="About-title">À propos de moi</h2>
           <h3 i className="Name-Portfolio">
             je m'appel Aymeric Bascunana
