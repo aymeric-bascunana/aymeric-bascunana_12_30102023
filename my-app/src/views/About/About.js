@@ -6,12 +6,12 @@ function About() {
   return (
     <>
       <section id="Ancre-about" className="About-Contenant">
+        <img className="ordi-background" src={ordi}></img>
         <div id="Body-text">
-          <img src={ordi}></img>
-          <h2 className="About-title">À propos de moi</h2>
-          <h3 i className="Name-Portfolio">
+          {/* <h2 className="About-title">À propos de moi</h2> */}
+          <h2 i className="Name-Portfolio">
             je m'appel Aymeric Bascunana
-          </h3>
+          </h2>
           <p className="info-me">
             je suis étudiant débutant en code html, css, scss, Javascript et
             react,passionné par la création web et la résolution de problèmes.
