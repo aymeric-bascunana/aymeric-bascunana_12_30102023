@@ -8,6 +8,16 @@ function Footer() {
     <>
       <section id="Ancre-footer" className="Footer-Contenant">
         <div id="Body-text">
+          <h2 className="titre-contact">Contact</h2>
+          <form action="" method="post">
+            <label> Prenom</label>
+            <input className="info" type="text" name="prenom" />
+            <label> E-mail</label>
+            <input className="info" type="text" name="E-mail" />
+            <label> Message</label>
+            <input className="text" type="text" name="Message" />
+            <input className="btn" type="submit" value="Envoyer"></input>
+          </form>
           <ul className="ul-footer">
             <li>Numéro de téléphone: 01.02.03.04.05</li>
             <li>E-mail: Adressemail@gmail.com</li>

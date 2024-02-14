@@ -24,7 +24,7 @@ function Home() {
         <a id="bouton-scroll" href="#Ancre-competence">
           Compétence
         </a>
-        <a id="bouton-scroll" href="#Ancre-project">
+        <a id="bouton-scroll" href="#Ancre-projet">
           Project
         </a>
         <a id="bouton-scroll" href="#Ancre-diplome">

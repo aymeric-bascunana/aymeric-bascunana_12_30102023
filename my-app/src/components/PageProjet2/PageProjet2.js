@@ -34,6 +34,13 @@ function Projet2() {
             debut, je devais également ajouter les dots.
           </p>
         </div>
+        <h2>Outils</h2>
+        <p>Les outils utiliser dans ce projet:</p>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Javascript</li>
+        </ul>
       </div>
     </>
   );

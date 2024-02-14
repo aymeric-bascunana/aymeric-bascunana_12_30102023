@@ -34,6 +34,15 @@ function Projet1() {
             plats et les desserts où vous validez et commendez vos repas.
           </p>
         </div>
+
+        <h2>Outils</h2>
+        <p>Les outils utiliser dans ce projet:</p>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>SASS</li>
+          <li>RESPONSIVE</li>
+        </ul>
       </div>
     </>
   );
