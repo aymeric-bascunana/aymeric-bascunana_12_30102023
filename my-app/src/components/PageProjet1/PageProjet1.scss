@@ -7,15 +7,12 @@
 
 .carousel {
   position: relative;
-  top: 50px;
+  top: 40px;
   width: 100%;
   object-fit: cover;
 }
 
 .carousel:hover {
-}
-.type-projet {
-  margin: 50px 0px 0px 0px;
 }
 
 .lien {
@@ -36,4 +33,17 @@
 
 .body-page1 {
   color: white;
+  margin: 10px;
+}
+
+.body-text {
+  border-left: solid 10px blue;
+  border-right: solid 10px blue;
+  margin: 50px 0px 0px 0px;
+}
+
+.zone-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

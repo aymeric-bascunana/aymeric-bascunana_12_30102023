@@ -7,6 +7,7 @@ import Home from "./views/Home/Home";
 import reportWebVitals from "./reportWebVitals";
 import Projet1 from "./components/PageProjet1/PageProjet1";
 import Projet2 from "./components/PageProjet2/PageProjet2";
+import Panel from "./views/panel/panel";
 
 // import About from "./views/About/About";
 // import Footer from "./components/footer/footer";
@@ -16,6 +17,7 @@ root.render(
   //<App />
   <React.StrictMode>
     <BrowserRouter>
+      <Panel />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/PageProjet1" element={<Projet1 />} />
