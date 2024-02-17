@@ -13,7 +13,7 @@ function Projet1() {
         <FontAwesomeIcon icon={faArrowLeft} />
       </NavLink>
       <img className="header-page1" src={image}></img>
-      <section className="body-page1">
+      <section className="body-page">
         <a href="https://aymeric-bascunana.github.io/aymeric-bascunana_4_13042023/">
           <img className="carousel" src={carouselOhmyfood}></img>
         </a>

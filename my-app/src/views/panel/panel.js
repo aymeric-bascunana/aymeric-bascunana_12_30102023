@@ -9,7 +9,6 @@ function Panel() {
           Accueil
         </a>
         <a id="bouton-scroll" href="http://localhost:3000/#Ancre-about">
-          {" "}
           À propos de moi
         </a>
         <a id="bouton-scroll" href="http://localhost:3000/#Ancre-competence">

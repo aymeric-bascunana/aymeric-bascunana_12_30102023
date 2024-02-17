@@ -8,19 +8,25 @@
 .carousel {
   position: relative;
   top: 40px;
-  width: 100%;
-  object-fit: cover;
+  width: 62%;
+  height: 306px;
+  object-fit: contain;
+  left: 366px;
 }
 
 .carousel:hover {
+  border: solid blue;
+  opacity: 0.8;
+  left: 363px;
+  top: 37px;
 }
 
 .lien {
   position: absolute;
   top: 30px;
-  left: 30px;
+  left: 200px;
   font-size: 30px;
-  color: black;
+  color: white;
 }
 
 .lien:hover {
@@ -31,7 +37,7 @@
   margin: 0px;
 }
 
-.body-page1 {
+.body-page {
   color: white;
   margin: 10px;
 }

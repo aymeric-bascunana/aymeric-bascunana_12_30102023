@@ -1,0 +1,43 @@
+.header-page2 {
+  font-size: 50px;
+  position: relative;
+  top: 15px;
+  left: 42%;
+}
+
+.carousel2 {
+  position: relative;
+  top: 40px;
+  width: 60%;
+  height: 304px;
+  object-fit: contain;
+  left: 366px;
+}
+
+.carousel2:hover {
+  border: solid rgb(255, 0, 0);
+  opacity: 0.8;
+  left: 363px;
+  top: 37px;
+}
+
+.Paragraphe-about {
+  margin: 0px;
+}
+
+.body-page1 {
+  color: white;
+  margin: 10px;
+}
+
+.body-text2 {
+  border-left: solid 10px rgb(255, 0, 0);
+  border-right: solid 10px rgb(255, 0, 0);
+  margin: 50px 0px 0px 0px;
+}
+
+.zone-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
