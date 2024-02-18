@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
+import Chart from "chart.js/auto";
 import "../Competence/Competence.scss";
 import html from "../../assets/logo-html.png";
 import css from "../../assets/logo-css.png";
@@ -7,17 +8,79 @@ import javas from "../../assets/logo-js.png";
 import react from "../../assets/logo-react.png";
 
 function Compétence() {
+  const chartRef = useRef(null); // Ref pour accéder au canevas du graphique
+
+  useEffect(() => {
+    // Données pour le graphique histogramme
+    const data = {
+      labels: ["HTML", "CSS", "SASS", "Javascript", "React"],
+      datasets: [
+        {
+          label: "Niveau de compétences",
+          data: [4, 3, 4, 2.5, 3], // Niveaux de compétence (sur une échelle de 1 à 5, par exemple)
+          backgroundColor: [
+            "rgba(255, 99, 132, 0.2)",
+            "rgba(54, 162, 235, 0.2)",
+            "rgba(255, 206, 86, 0.2)",
+            "rgba(75, 192, 192, 0.2)",
+            "rgba(153, 102, 255, 0.2)",
+          ],
+          borderColor: [
+            "rgba(255, 99, 132, 1)",
+            "rgba(54, 162, 235, 1)",
+            "rgba(255, 206, 86, 1)",
+            "rgba(75, 192, 192, 1)",
+            "rgba(153, 102, 255, 1)",
+          ],
+          borderWidth: 1,
+        },
+      ],
+    };
+
+    // Détruire le graphique existant s'il y en a un
+    if (chartRef.current !== null) {
+      chartRef.current.destroy();
+    }
+
+    // Créer un nouveau graphique histogramme
+    const ctx = document.getElementById("histogram-chart").getContext("2d");
+    chartRef.current = new Chart(ctx, {
+      type: "bar",
+      data: data,
+      options: {
+        scales: {
+          y: {
+            beginAtZero: true,
+          },
+        },
+      },
+    });
+  }, []);
+
   return (
     <>
       <section id="Ancre-competence" className="Competence-Contenant">
-        <h2 id="Body-competence"> Mes Compétences</h2>
+        {/* <h2 id="Body-competence"> Mes Compétences</h2>
         <ul id="Body-competence" className="block-list">
           <li className="list-Competence">HTML</li>
           <li className="list-Competence">CSS</li>
           <li className="list-Competence">SASS</li>
           <li className="list-Competence">Javascript</li>
           <li className="list-Competence">React</li>
-        </ul>
+        </ul> */}
+
+        {/* Graphique histogramme */}
+        <canvas
+          id="histogram-chart"
+          style={{
+            width: "50%",
+            height: "400px",
+            border: "1px solid #ccc",
+            position: "relative",
+            left: "200px",
+          }}
+        ></canvas>
+
         <img className="html-img" src={html}></img>
         <img className="css-img" src={css}></img>
         <img className="sass-img" src={sass}></img>
