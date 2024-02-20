@@ -17,7 +17,7 @@ function Compétence() {
       datasets: [
         {
           label: "Niveau de compétences",
-          data: [4, 3, 4, 2.5, 3], // Niveaux de compétence (sur une échelle de 1 à 5, par exemple)
+          data: [4.5, 3.5, 4.5, 2.5, 3], // Niveaux de compétence (sur une échelle de 1 à 5, par exemple)
           backgroundColor: [
             "rgba(255, 99, 132, 0.2)",
             "rgba(54, 162, 235, 0.2)",
@@ -51,6 +51,7 @@ function Compétence() {
         scales: {
           y: {
             beginAtZero: true,
+            max: 5,
           },
         },
       },
@@ -70,16 +71,7 @@ function Compétence() {
         </ul> */}
 
         {/* Graphique histogramme */}
-        <canvas
-          id="histogram-chart"
-          style={{
-            width: "50%",
-            height: "400px",
-            border: "1px solid #ccc",
-            position: "relative",
-            left: "200px",
-          }}
-        ></canvas>
+        <canvas id="histogram-chart"></canvas>
 
         <img className="html-img" src={html}></img>
         <img className="css-img" src={css}></img>

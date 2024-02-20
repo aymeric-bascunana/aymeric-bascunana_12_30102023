@@ -10,7 +10,7 @@ function About() {
         <div id="Body-text">
           {/* <h2 className="About-title">À propos de moi</h2> */}
           <h2 i className="Name-Portfolio">
-            je m'appel Aymeric Bascunana
+            je m'appelle Aymeric Bascunana
           </h2>
           <p className="info-me">
             je suis étudiant débutant en code html, css, scss, Javascript et

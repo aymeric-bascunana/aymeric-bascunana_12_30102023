@@ -2,6 +2,8 @@
   padding: 10px;
   height: 1000px;
   margin-top: 160px;
+  border: solid;
+  margin-left: 153px;
 }
 
 .Box-projet {
@@ -79,4 +81,37 @@
     font-weight: 900;
     font-size: 20px;
   }
+}
+
+//test
+
+.Projet-Contenant {
+  display: flex;
+  justify-content: space-between; // ou d'autres valeurs selon vos besoins
+}
+
+.btn-window {
+  height: 30px;
+  width: 100%;
+  border: none;
+  background-color: #505050;
+}
+
+.btn-window:hover {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+
+.btn-window:focus {
+  background-color: #00366a;
+  color: #a5cdf1;
+  border-radius: 20px;
+}
+
+.fenetre-buttons {
+  display: flex;
+  height: 30px;
+  width: 40%;
+  gap: 1px;
 }
