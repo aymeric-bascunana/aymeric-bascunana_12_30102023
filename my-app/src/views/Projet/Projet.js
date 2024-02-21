@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "./Projet.scss";
-import { Link } from "react-router-dom";
-import Ohmyfood from "../../assets/TitreOhmyfood.PNG";
-import Printit from "../../assets/TitrePrintit.PNG";
+// import { Link } from "react-router-dom";
+// import Ohmyfood from "../../assets/TitreOhmyfood.PNG";
+// import Printit from "../../assets/TitrePrintit.PNG";
 import Projet1 from "../../components/PageProjet1/PageProjet1";
 import Projet2 from "../../components/PageProjet2/PageProjet2";
 
@@ -17,6 +17,21 @@ function Projet() {
   // Fonction pour revenir à une page vide
   const handleClearWindow = () => {
     setSelectedWindow(null);
+  };
+
+  // Fonction pour gérer la soumission du formulaire
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    const inputText = event.target
+      .querySelector('input[name="prenom"]')
+      .value.trim()
+      .toLowerCase();
+
+    if (inputText === "projet1" || inputText === "projet2") {
+      setSelectedWindow(inputText);
+    } else {
+      setSelectedWindow(null);
+    }
   };
 
   return (
@@ -39,21 +54,25 @@ function Projet() {
           Projet 2
         </button>
       </div>
-
+      <h3 className="logo">Mes Projets</h3>
       <div className="fenetre-contenu">
         {/* Afficher le contenu en fonction de la fenêtre sélectionnée */}
         {selectedWindow === "projet1" && <Projet1 />}
         {selectedWindow === "projet2" && <Projet2 />}
-        {selectedWindow === null && <div>Page vide</div>}{" "}
-        {/* Afficher une page vide si aucun projet n'est sélectionné */}
+        {selectedWindow === null && (
+          <form onSubmit={handleSubmit}>
+            <input className="search" type="text" name="prenom" />
+            <input className="btn-search" type="submit" value="Entrée" />
+          </form>
+        )}
       </div>
     </section>
   );
 }
 
 export default Projet;
-{
-  /* <div id="Body-text">
+
+/* <div id="Body-text">
   <h2>Mes Projets</h2>
   <h3>Voici quelque projet que j'ai réaliser durant ma formation</h3>
   <div className="Box-projet">
@@ -76,4 +95,3 @@ export default Projet;
     </Link>
   </div>
 </div> */
-}

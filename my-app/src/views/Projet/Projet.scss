@@ -85,10 +85,10 @@
 
 //test
 
-.Projet-Contenant {
-  display: flex;
-  justify-content: space-between; // ou d'autres valeurs selon vos besoins
-}
+// .Projet-Contenant {
+//   // display: flex;
+//   // justify-content: space-between; // ou d'autres valeurs selon vos besoins
+// }
 
 .btn-window {
   height: 30px;
@@ -114,4 +114,35 @@
   height: 30px;
   width: 40%;
   gap: 1px;
+}
+
+.fenetre-contenu {
+  position: relative;
+  top: 400px;
+  width: 35%;
+  left: 500px;
+}
+
+.search {
+  border-radius: 16px;
+  border: none;
+  height: 30px;
+}
+
+.btn-search {
+  background-color: #8a8989;
+  width: 10%;
+  height: 33px;
+  border: none;
+  border-radius: 16px;
+  position: absolute;
+  right: 0px;
+}
+
+.logo {
+  font-size: 37px;
+  color: white;
+  position: relative;
+  left: 671px;
+  top: 258px;
 }

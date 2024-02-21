@@ -1,24 +1,24 @@
 .header-page1 {
   font-size: 50px;
   position: relative;
-  top: 15px;
-  left: 38%;
+  bottom: 350px;
+  left: 20%;
 }
 
 .carousel {
   position: relative;
   top: 40px;
-  width: 62%;
-  height: 306px;
+  width: 100%;
+
   object-fit: contain;
-  left: 366px;
 }
 
 .carousel:hover {
   border: solid blue;
   opacity: 0.8;
-  left: 363px;
+
   top: 37px;
+  height: 152px;
 }
 
 .lien {
@@ -40,6 +40,8 @@
 .body-page {
   color: white;
   margin: 10px;
+  position: relative;
+  bottom: 358px;
 }
 
 .body-text {

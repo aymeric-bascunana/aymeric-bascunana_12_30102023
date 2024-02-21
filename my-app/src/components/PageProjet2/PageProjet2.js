@@ -1,7 +1,7 @@
 import React from "react";
 import "./PageProjet2.scss";
 import image from "../../assets/TitrePrintit.PNG";
-import carouselOhmyfood from "../../assets/CarouselPrintit.PNG";
+import CarouselPrintit from "../../assets/CarouselPrintit.PNG";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import { NavLink } from "react-router-dom";
@@ -9,13 +9,13 @@ import { NavLink } from "react-router-dom";
 function Projet2() {
   return (
     <>
-      <NavLink className="lien" activeClassName="active" exact to="/">
+      {/* <NavLink className="lien" activeClassName="active" exact to="/">
         <FontAwesomeIcon icon={faArrowLeft} />
-      </NavLink>
+      </NavLink> */}
       <img className="header-page2" src={image}></img>
       <section className="body-page">
         <a href="https://aymeric-bascunana.github.io/aymeric-bascunana_5_26062023/">
-          <img className="carousel2" src={carouselOhmyfood}></img>
+          <img className="carousel2" src={CarouselPrintit}></img>
         </a>
         <div className="body-text2">
           <div className="zone-text">

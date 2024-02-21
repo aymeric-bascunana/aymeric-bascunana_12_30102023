@@ -9,9 +9,9 @@ import { NavLink } from "react-router-dom";
 function Projet1() {
   return (
     <>
-      <NavLink className="lien" activeClassName="active" exact to="/">
+      {/* <NavLink className="lien" activeClassName="active" exact to="/">
         <FontAwesomeIcon icon={faArrowLeft} />
-      </NavLink>
+      </NavLink> */}
       <img className="header-page1" src={image}></img>
       <section className="body-page">
         <a href="https://aymeric-bascunana.github.io/aymeric-bascunana_4_13042023/">
