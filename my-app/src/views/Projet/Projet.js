@@ -38,17 +38,24 @@ function Projet() {
     <section id="Ancre-projet" className="Projet-Contenant">
       <div className="fenetre-buttons">
         {/* Boutons pour les fenêtres */}
-        <button className="btn-window" onClick={handleClearWindow}>
+        <button
+          className={`btn-window ${selectedWindow === null ? "selected" : ""}`}
+          onClick={handleClearWindow}
+        >
           Page vide
         </button>
         <button
-          className="btn-window"
+          className={`btn-window ${
+            selectedWindow === "projet1" ? "selected" : ""
+          }`}
           onClick={() => handleWindowChange("projet1")}
         >
           Projet 1
         </button>
         <button
-          className="btn-window"
+          className={`btn-window ${
+            selectedWindow === "projet2" ? "selected" : ""
+          }`}
           onClick={() => handleWindowChange("projet2")}
         >
           Projet 2
@@ -63,6 +70,9 @@ function Projet() {
           <form onSubmit={handleSubmit}>
             <input className="search" type="text" name="prenom" />
             <input className="btn-search" type="submit" value="Entrée" />
+            <div className="search-labels">
+              Termes acceptés : <span>projet1</span>, <span>projet2</span>
+            </div>
           </form>
         )}
       </div>
