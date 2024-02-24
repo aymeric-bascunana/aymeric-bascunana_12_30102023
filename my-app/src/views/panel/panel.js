@@ -87,6 +87,11 @@ function Panel() {
       >
         Footer
       </a>
+
+      <ul className="ul-contact">
+        <li> 01.02.03.04.05</li>
+        <li> Adressemail@gmail.com</li>
+      </ul>
     </div>
   );
 }

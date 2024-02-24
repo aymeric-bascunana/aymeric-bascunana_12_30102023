@@ -1,7 +1,7 @@
 import React from "react";
 import "../Footer/Footer.scss";
-import X from "../../assets/Logo-X.png";
-import instagram from "../../assets/Logo-insta.png";
+// import X from "../../assets/Logo-X.png";
+// import instagram from "../../assets/Logo-insta.png";
 
 function Footer() {
   return (
@@ -18,14 +18,12 @@ function Footer() {
             <input className="text" type="text" name="Message" />
             <input className="btn" type="submit" value="Envoyer"></input>
           </form>
-          <ul className="ul-footer">
-            <li>Numéro de téléphone: 01.02.03.04.05</li>
-            <li>E-mail: Adressemail@gmail.com</li>
+          {/* <ul className="ul-footer">
             <li>
               <img className="twitter" src={X}></img>
               <img className="insta" src={instagram}></img>
             </li>
-          </ul>
+          </ul> */}
         </div>
       </section>
     </>

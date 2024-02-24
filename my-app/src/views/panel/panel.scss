@@ -5,7 +5,7 @@
   background-color: #000000db;
   padding: 10px;
   height: 100%;
-  width: 7%;
+  width: 10%;
   z-index: 1;
 }
 
@@ -32,4 +32,14 @@
 .active {
   background-color: white;
   color: black;
+}
+
+.ul-contact {
+  color: white;
+  position: relative;
+  top: 390px;
+  right: 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
