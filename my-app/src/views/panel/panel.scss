@@ -43,3 +43,55 @@
   flex-direction: column;
   gap: 20px;
 }
+
+.display-mobil {
+  display: block;
+}
+
+.btn-nav {
+  display: none;
+}
+
+.modal-content {
+  display: none;
+}
+//VERSION MOBIL
+
+@media (max-width: 576px) {
+  .side-panel {
+    height: 140px;
+    width: 100%;
+    top: 0;
+    background-color: transparent;
+  }
+
+  .bouton-scroll {
+    width: 10%;
+  }
+
+  .name {
+    display: none;
+  }
+
+  .ul-contact {
+    display: none;
+  }
+
+  .display-mobil {
+    display: none;
+  }
+
+  .btn-nav {
+    position: relative;
+    top: 100px;
+    height: 30px;
+    width: 8%;
+    background-color: aqua;
+    border: none;
+    display: block;
+  }
+
+  .modal-content {
+    display: block;
+  }
+}

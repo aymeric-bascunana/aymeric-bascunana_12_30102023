@@ -1,12 +1,14 @@
 import React from "react";
 import "./About.scss";
 import ordi from "../../assets/ordi.png";
+import tel from "../../assets/tel.png";
 
 function About() {
   return (
     <>
       <section id="Ancre-about" className="About-Contenant">
         <img className="ordi-background" src={ordi}></img>
+        <img className="tel-background" src={tel}></img>
         <div id="Body-text">
           {/* <h2 className="About-title">À propos de moi</h2> */}
           <h2 i className="Name-Portfolio">

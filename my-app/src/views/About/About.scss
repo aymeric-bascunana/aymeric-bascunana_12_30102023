@@ -21,3 +21,22 @@
   position: absolute;
   top: 960px;
 }
+
+.tel-background {
+  display: none;
+}
+
+//VERSION MOBIL
+
+@media (max-width: 576px) {
+  .ordi-background {
+    display: none;
+  }
+
+  .tel-background {
+    display: block;
+    height: 840px;
+    position: relative;
+    right: 218px;
+  }
+}

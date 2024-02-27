@@ -31,7 +31,7 @@
 
 section {
   background-color: #171717;
-  margin: 0px 0px 100px 0px;
+  margin: 0px 0px 200px 0px;
 }
 
 .name {
@@ -41,4 +41,9 @@ section {
 body {
   background-color: #171717;
   padding: 1px;
+}
+
+//VERSION MOBIL
+
+@media (max-width: 576px) {
 }
