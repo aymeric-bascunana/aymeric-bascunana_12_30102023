@@ -14,7 +14,10 @@ function Projet2() {
       </NavLink> */}
       <img className="header-page2" src={image}></img>
       <section className="body-page">
-        <a href="https://aymeric-bascunana.github.io/aymeric-bascunana_5_26062023/">
+        <a
+          className="img-lien"
+          href="https://aymeric-bascunana.github.io/aymeric-bascunana_5_26062023/"
+        >
           <img className="carousel2" src={CarouselPrintit}></img>
         </a>
         <div className="body-text2">

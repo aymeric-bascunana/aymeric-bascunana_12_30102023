@@ -43,9 +43,26 @@
 }
 
 #histogram-chart {
-  width: 50%;
-  height: 400px;
+  width: 421px;
+  height: 210px;
   border: 1px solid #ccc;
   position: relative;
   left: 259px;
+  display: block;
+  box-sizing: border-box;
+}
+
+//VERSION MOBIL
+
+@media (max-width: 576px) {
+  #histogram-chart {
+    left: 10px;
+    top: 170px;
+    width: 402px;
+    height: 275px;
+  }
+
+  #img-competence {
+    display: none;
+  }
 }

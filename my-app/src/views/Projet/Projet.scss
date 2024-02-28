@@ -157,3 +157,24 @@
 .search-labels {
   color: white;
 }
+
+//VERSION MOBIL
+
+@media (max-width: 576px) {
+  .Projet-Contenant {
+    margin-left: 3px;
+  }
+
+  .fenetre-contenu {
+    left: 50px;
+    width: 80%;
+  }
+
+  .logo {
+    left: 123px;
+    width: 0%;
+  }
+  .btn-search {
+    width: 18%;
+  }
+}

@@ -36,3 +36,26 @@
   flex-direction: column;
   align-items: center;
 }
+
+//VERSION MOBIL
+
+@media (max-width: 576px) {
+  .body-page {
+    height: 35px;
+  }
+  .header-page2 {
+    left: 10px;
+    width: 85%;
+    bottom: 475px;
+  }
+
+  .img-lien {
+    position: relative;
+    bottom: 80px;
+  }
+
+  .body-text2 {
+    position: relative;
+    bottom: 60px;
+  }
+}

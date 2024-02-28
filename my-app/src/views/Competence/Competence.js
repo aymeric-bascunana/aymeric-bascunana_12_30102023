@@ -73,11 +73,11 @@ function Compétence() {
         {/* Graphique histogramme */}
         <canvas id="histogram-chart"></canvas>
 
-        <img className="html-img" src={html}></img>
-        <img className="css-img" src={css}></img>
-        <img className="sass-img" src={sass}></img>
-        <img className="js-img" src={javas}></img>
-        <img className="react-img" src={react}></img>
+        <img id="img-competence" className="html-img" src={html}></img>
+        <img id="img-competence" className="css-img" src={css}></img>
+        <img id="img-competence" className="sass-img" src={sass}></img>
+        <img id="img-competence" className="js-img" src={javas}></img>
+        <img id="img-competence" className="react-img" src={react}></img>
       </section>
     </>
   );
