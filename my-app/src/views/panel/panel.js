@@ -15,7 +15,7 @@ function Panel() {
       const footerSection = document.getElementById("Ancre-footer");
 
       if (
-        scrollPosition < aboutSection.offsetTop &&
+        scrollPosition <= aboutSection.offsetTop &&
         scrollPosition >= accueilSection.offsetTop
       ) {
         setActiveLink("Ancre-accueil");
@@ -34,7 +34,7 @@ function Panel() {
         scrollPosition >= projetSection.offsetTop
       ) {
         setActiveLink("Ancre-projet");
-      } else {
+      } else if (scrollPosition >= footerSection.offsetTop) {
         setActiveLink("Ancre-footer");
       }
     };
@@ -97,13 +97,13 @@ function Panel() {
           }`}
           href="#Ancre-footer"
         >
-          Footer
+          Contact
         </a>
       </div>
 
       <ul className="ul-contact">
-        <li> 01.02.03.04.05</li>
-        <li> Adressemail@gmail.com</li>
+        <li> 06.62.74.90.80</li>
+        <li className="mail-info">aymeric.bascunana@gmail.com</li>
       </ul>
 
       <button className="btn-nav" onClick={() => setModalOpen(true)}>

@@ -12,57 +12,47 @@
 .html-img {
   position: relative;
   height: 150px;
-  left: 304px;
+  left: 905px;
+  bottom: 425px;
 }
 
 .css-img {
   position: relative;
   height: 150px;
-  top: 3px;
-  left: 467px;
+  left: 1042px;
+  bottom: 252px;
 }
 
 .sass-img {
   position: relative;
   height: 150px;
-  top: 9px;
-  left: 640px;
+  top: 65px;
+  left: 811px;
 }
 
 .js-img {
   position: relative;
   height: 150px;
-  left: 681px;
+  left: 217px;
+  top: 40px;
 }
 
 .react-img {
   position: relative;
   height: 150px;
-  left: 774px;
-  top: 3px;
-}
-
-#histogram-chart {
-  width: 421px;
-  height: 210px;
-  border: 1px solid #ccc;
-  position: relative;
-  left: 259px;
-  display: block;
-  box-sizing: border-box;
+  bottom: 240px;
+  right: 107px;
 }
 
 //VERSION MOBIL
 
 @media (max-width: 576px) {
-  #histogram-chart {
-    left: 10px;
-    top: 170px;
-    width: 402px;
-    height: 275px;
-  }
-
   #img-competence {
     display: none;
+  }
+
+  .recharts-wrapper {
+    left: 0;
+    right: 87px;
   }
 }
