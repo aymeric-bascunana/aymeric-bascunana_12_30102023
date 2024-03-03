@@ -44,6 +44,11 @@
   right: 107px;
 }
 
+.recharts-wrapper {
+  left: 680px;
+  top: 160px;
+}
+
 //VERSION MOBIL
 
 @media (max-width: 576px) {
@@ -52,7 +57,7 @@
   }
 
   .recharts-wrapper {
-    left: 0;
+    left: auto;
     right: 87px;
   }
 }

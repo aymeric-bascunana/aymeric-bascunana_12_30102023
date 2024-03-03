@@ -46,7 +46,7 @@ function Panel() {
   }, []);
 
   const modalContent = (
-    <div>
+    <div className="modal-panel">
       <a href="#Ancre-accueil">Accueil</a>
       <a href="#Ancre-about">À propos de moi</a>
       <a href="#Ancre-competence">Compétence</a>
