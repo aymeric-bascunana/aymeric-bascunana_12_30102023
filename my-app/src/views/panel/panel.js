@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../panel/panel.scss";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
 function Panel() {
   const [activeLink, setActiveLink] = useState(""); // État pour suivre le lien actif
@@ -45,13 +47,53 @@ function Panel() {
     };
   }, []);
 
+  const closeModal = () => {
+    console.log("modal fermer");
+    setModalOpen(false);
+  };
+
+  const handleNavigation = (sectionId) => {
+    closeModal(); // Ferme la modal lors de la navigation
+    // Autre logique pour la navigation vers la section correspondante
+  };
+
   const modalContent = (
     <div className="modal-panel">
-      <a href="#Ancre-accueil">Accueil</a>
-      <a href="#Ancre-about">À propos de moi</a>
-      <a href="#Ancre-competence">Compétence</a>
-      <a href="#Ancre-projet">Project</a>
-      <a href="#Ancre-footer">Footer</a>
+      <a
+        className="btn-mobil"
+        href="#Ancre-accueil"
+        onClick={() => handleNavigation("#Ancre-accueil")}
+      >
+        Accueil
+      </a>
+      <a
+        className="btn-mobil"
+        href="#Ancre-about"
+        onClick={() => handleNavigation("#Ancre-accueil")}
+      >
+        À propos de moi
+      </a>
+      <a
+        className="btn-mobil"
+        href="#Ancre-competence"
+        onClick={() => handleNavigation("#Ancre-accueil")}
+      >
+        Compétence
+      </a>
+      <a
+        className="btn-mobil"
+        href="#Ancre-projet"
+        onClick={() => handleNavigation("#Ancre-accueil")}
+      >
+        Project
+      </a>
+      <a
+        className="btn-mobil"
+        href="#Ancre-footer"
+        onClick={() => handleNavigation("#Ancre-accueil")}
+      >
+        Footer
+      </a>
     </div>
   );
 
@@ -113,8 +155,8 @@ function Panel() {
       {modalOpen && (
         <div className="modal">
           <div className="modal-content">
-            <span className="close" onClick={() => setModalOpen(false)}>
-              &times;
+            <span className="close" onClick={closeModal}>
+              <FontAwesomeIcon icon={faArrowLeft} />
             </span>
             {modalContent}
           </div>
