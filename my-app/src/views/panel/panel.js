@@ -48,13 +48,12 @@ function Panel() {
   }, []);
 
   const closeModal = () => {
-    console.log("modal fermer");
-    setModalOpen(false);
+    // console.log(closeModal);
+    setModalOpen(false); // Ferme la modal
   };
 
   const handleNavigation = (sectionId) => {
     closeModal(); // Ferme la modal lors de la navigation
-    // Autre logique pour la navigation vers la section correspondante
   };
 
   const modalContent = (
@@ -69,28 +68,28 @@ function Panel() {
       <a
         className="btn-mobil"
         href="#Ancre-about"
-        onClick={() => handleNavigation("#Ancre-accueil")}
+        onClick={() => handleNavigation("#Ancre-about")}
       >
         À propos de moi
       </a>
       <a
         className="btn-mobil"
         href="#Ancre-competence"
-        onClick={() => handleNavigation("#Ancre-accueil")}
+        onClick={() => handleNavigation("#Ancre-competence")}
       >
         Compétence
       </a>
       <a
         className="btn-mobil"
         href="#Ancre-projet"
-        onClick={() => handleNavigation("#Ancre-accueil")}
+        onClick={() => handleNavigation("#Ancre-projet")}
       >
         Project
       </a>
       <a
         className="btn-mobil"
         href="#Ancre-footer"
-        onClick={() => handleNavigation("#Ancre-accueil")}
+        onClick={() => handleNavigation("#Ancre-footer")}
       >
         Footer
       </a>

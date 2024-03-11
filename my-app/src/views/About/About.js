@@ -8,8 +8,10 @@ function About() {
     <>
       <section id="Ancre-about" className="About-Contenant">
         <img className="ordi-background" src={ordi}></img>
-        <img className="tel-background" src={tel}></img>
-        <div id="Body-text">
+        <div className="block-phone">
+          <img className="tel-background" src={tel}></img>
+        </div>
+        <div id="div-text">
           {/* <h2 className="About-title">À propos de moi</h2> */}
           <h2 i className="Name-Portfolio">
             je m'appelle Aymeric Bascunana

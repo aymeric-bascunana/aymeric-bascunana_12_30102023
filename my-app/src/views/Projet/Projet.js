@@ -42,7 +42,7 @@ function Projet() {
           className={`btn-window ${selectedWindow === null ? "selected" : ""}`}
           onClick={handleClearWindow}
         >
-          Page vide
+          Nouvel onglet
         </button>
         <button
           className={`btn-window ${

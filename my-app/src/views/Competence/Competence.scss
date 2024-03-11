@@ -1,5 +1,5 @@
 .Competence-Contenant {
-  padding: 1px;
+  // padding: 1px;
   height: 757px;
 }
 #Body-competence {
@@ -58,6 +58,7 @@
 
   .recharts-wrapper {
     left: auto;
-    right: 87px;
+    right: 8px;
+    max-width: 100%;
   }
 }

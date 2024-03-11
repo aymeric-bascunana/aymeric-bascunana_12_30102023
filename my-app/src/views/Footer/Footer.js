@@ -7,9 +7,10 @@ function Footer() {
       <section id="Ancre-footer" className="Footer-Contenant">
         <div id="Body-text">
           <h2 className="titre-contact">Contact</h2>
-          <form action="" method="post">
+          <form action="#">
             <label> Prénom</label>
             <input
+              disabled
               className="info"
               type="text"
               name="prenom"
@@ -18,20 +19,22 @@ function Footer() {
             />
             <label> E-mail</label>
             <input
+              disabled
               className="info"
               type="text"
               name="email"
               value="aymeric.bascunana@gmail.com"
               readOnly
             />
-            <label> Message</label>
+            <label> Téléphone</label>
             <input
-              className="text"
-              type="text"
-              name="message"
-              placeholder="Mon numero de téléphone= 06.62.74.90.80"
+              className="info"
+              disabled
+              type="phone"
+              name="telephone"
+              placeholder="06.62.74.90.80"
             />
-            <input className="btn" type="submit" value="Envoyer" />
+            <input disabled className="btn" type="submit" value="Envoyer" />
           </form>
         </div>
       </section>
