@@ -111,6 +111,7 @@
     position: absolute;
     background-color: #000000db;
     left: 0;
+    top: 80px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -137,5 +138,6 @@
     color: white;
     display: flex;
     font-size: 35px;
+    z-index: 1;
   }
 }

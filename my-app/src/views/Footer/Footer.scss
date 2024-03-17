@@ -21,7 +21,7 @@ form {
 }
 
 .info {
-  width: 20%;
+  width: 30%;
   height: 30px;
 }
 
@@ -48,8 +48,9 @@ form {
 
 #Body-text {
   position: relative;
-  left: 630px;
   top: 0;
+  max-width: 100%;
+  margin-left: 600px;
 }
 
 //VERSION MOBIL
@@ -74,5 +75,6 @@ form {
     left: 75px;
     top: 0;
     text-align: center;
+    margin: 0;
   }
 }

@@ -48,7 +48,7 @@ function Panel() {
   }, []);
 
   const closeModal = () => {
-    // console.log(closeModal);
+    console.log("Modal closed");
     setModalOpen(false); // Ferme la modal
   };
 
@@ -147,10 +147,15 @@ function Panel() {
         <li className="mail-info">aymeric.bascunana@gmail.com</li>
       </ul>
 
-      <button className="btn-nav" onClick={() => setModalOpen(true)}>
+      <button
+        className="btn-nav"
+        onClick={() => {
+          console.log("Modal opened"); // Vérifie si le bouton est cliqué
+          setModalOpen(true);
+        }}
+      >
         Navigation
       </button>
-
       {modalOpen && (
         <div className="modal">
           <div className="modal-content">
