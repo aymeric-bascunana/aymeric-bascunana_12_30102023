@@ -1,8 +1,9 @@
 .header-page1 {
   font-size: 50px;
   position: relative;
-  bottom: 350px;
-  left: 20%;
+  bottom: 420px;
+  left: 100px;
+  z-index: 1;
 }
 
 .carousel {
@@ -38,7 +39,7 @@
   color: white;
   margin: 10px;
   position: relative;
-  bottom: 358px;
+  bottom: 550px;
 }
 
 .body-text {
@@ -65,6 +66,13 @@
   .img-lien {
     position: relative;
     bottom: 80px;
+  }
+
+  .body-page {
+    color: white;
+    margin: 10px;
+    position: relative;
+    bottom: 358px;
   }
 
   .body-text {
