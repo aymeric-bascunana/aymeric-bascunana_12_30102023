@@ -2,10 +2,12 @@ import React, { useState, useEffect } from "react";
 import "../panel/panel.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
+// import { faSun, faMoon } from "@fortawesome/free-solid-svg-icons";
 
-function Panel() {
+function Panel({ toggleTheme }) {
   const [activeLink, setActiveLink] = useState(""); // État pour suivre le lien actif
   const [modalOpen, setModalOpen] = useState(false); // État pour contrôler l'ouverture de la modal
+  // const [theme, setTheme] = useState("light");
 
   useEffect(() => {
     const handleScroll = () => {
@@ -47,14 +49,18 @@ function Panel() {
     };
   }, []);
 
+  //Section modal
   const closeModal = () => {
-    console.log("Modal closed");
     setModalOpen(false); // Ferme la modal
   };
 
   const handleNavigation = (sectionId) => {
     closeModal(); // Ferme la modal lors de la navigation
   };
+
+  // const toggleTheme = () => {
+  //   setTheme(theme === "light" ? "dark" : "light");
+  // };
 
   const modalContent = (
     <div className="modal-panel">
@@ -150,7 +156,6 @@ function Panel() {
       <button
         className="btn-nav"
         onClick={() => {
-          console.log("Modal opened"); // Vérifie si le bouton est cliqué
           setModalOpen(true);
         }}
       >
@@ -166,6 +171,11 @@ function Panel() {
           </div>
         </div>
       )}
+      {/* Bouton pour basculer entre les thèmes sombre et clair
+      <button className="btn-theme" onClick={toggleTheme}>
+        <FontAwesomeIcon icon={faSun} />
+        <FontAwesomeIcon icon={faMoon} />
+      </button> */}
     </div>
   );
 }

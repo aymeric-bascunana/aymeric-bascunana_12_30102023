@@ -3,16 +3,18 @@ import "./About.scss";
 import ordi from "../../assets/ordi.png";
 import tel from "../../assets/tel.png";
 
-function About() {
+function About({ theme }) {
   return (
     <>
-      <section id="Ancre-about" className="About-Contenant">
+      <section
+        id="Ancre-about"
+        className={`About-Contenant ${theme === "light" ? "light-theme" : ""}`}
+      >
         <img className="ordi-background" src={ordi}></img>
         <div className="block-phone">
           <img className="tel-background" src={tel}></img>
         </div>
         <div id="div-text">
-          {/* <h2 className="About-title">À propos de moi</h2> */}
           <h2 i className="Name-Portfolio">
             je m'appelle Aymeric Bascunana
           </h2>

@@ -22,7 +22,7 @@ root.render(
         <Route path="/" element={<Home />} />
         <Route path="/PageProjet1" element={<Projet1 />} />
         <Route path="/PageProjet2" element={<Projet2 />} />
-        {/* <Route path="/Logement/:id" element={<Logement />} /> */}
+
         {/* <Route path="*" element={<Error />} /> */}
       </Routes>
       {/* <Footer /> */}

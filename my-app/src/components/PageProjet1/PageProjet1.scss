@@ -1,8 +1,8 @@
 .header-page1 {
   font-size: 50px;
   position: relative;
-  bottom: 420px;
-  left: 100px;
+  left: 5px;
+  top: -385px;
   z-index: 1;
 }
 
@@ -15,7 +15,7 @@
 }
 
 .carousel:hover {
-  outline: solid blue;
+  outline: solid rgb(0, 0, 0);
   opacity: 0.8;
 }
 
@@ -40,11 +40,15 @@
   margin: 10px;
   position: relative;
   bottom: 550px;
+  &.light-theme {
+    color: black;
+    background-color: white;
+  }
 }
 
 .body-text {
-  border-left: solid 10px blue;
-  border-right: solid 10px blue;
+  border-left: solid 10px rgb(255, 255, 255);
+  border-right: solid 10px rgb(249, 249, 255);
   margin: 50px 0px 0px 0px;
 }
 

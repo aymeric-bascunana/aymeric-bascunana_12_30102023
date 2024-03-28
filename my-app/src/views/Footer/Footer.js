@@ -1,10 +1,13 @@
 import React from "react";
 import "../Footer/Footer.scss";
 
-function Footer() {
+function Footer({ theme }) {
   return (
     <>
-      <section id="Ancre-footer" className="Footer-Contenant">
+      <section
+        id="Ancre-footer"
+        className={`Footer-Contenant ${theme === "light" ? "light-theme" : ""}`}
+      >
         <div id="Body-text">
           <h2 className="titre-contact">Contact</h2>
           <form action="#">

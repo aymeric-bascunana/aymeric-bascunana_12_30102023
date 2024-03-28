@@ -6,21 +6,20 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import { NavLink } from "react-router-dom";
 
-function Projet2() {
+function Projet2({ theme }) {
   return (
     <>
-      {/* <NavLink className="lien" activeClassName="active" exact to="/">
-        <FontAwesomeIcon icon={faArrowLeft} />
-      </NavLink> */}
       <img className="header-page2" src={image}></img>
-      <section className="body-page">
+      <section
+        className={`body-page ${theme === "light" ? "light-theme" : ""}`}
+      >
         <a
           className="img-lien"
           href="https://aymeric-bascunana.github.io/aymeric-bascunana_5_26062023/"
         >
-          <img className="carousel2" src={CarouselPrintit}></img>
+          <img className="carousel" src={CarouselPrintit}></img>
         </a>
-        <div className="body-text2">
+        <div className="body-text">
           <div className="zone-text">
             <h2 className="type-projet">Projet carousel</h2>
             <p>

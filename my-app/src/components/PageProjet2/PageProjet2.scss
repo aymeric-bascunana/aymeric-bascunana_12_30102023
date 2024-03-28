@@ -4,6 +4,10 @@
   bottom: 371px;
   left: 50px;
   z-index: 1;
+
+  &.light-theme {
+    background-color: white;
+  }
 }
 
 .carousel2 {
@@ -12,25 +16,18 @@
   object-fit: contain;
 }
 
-.carousel2:hover {
-  outline: solid rgb(255, 0, 0);
-  opacity: 0.8;
-}
-
 .Paragraphe-about {
   margin: 0px;
 }
 
-.body-page1 {
-  color: white;
-  margin: 10px;
-}
-
-.body-text2 {
-  border-left: solid 10px rgb(255, 0, 0);
-  border-right: solid 10px rgb(255, 0, 0);
-  margin: 50px 0px 0px 0px;
-}
+// .body-page {
+//   color: white;
+//   margin: 10px;
+//   &.light-theme {
+//     color: black;
+//     background-color: white;
+//   }
+// }
 
 .zone-text {
   display: flex;

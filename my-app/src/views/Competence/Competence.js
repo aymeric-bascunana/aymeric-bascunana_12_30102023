@@ -1,10 +1,18 @@
 import React from "react";
 import {
-  Radar,
-  RadarChart,
-  PolarGrid,
-  PolarAngleAxis,
-  PolarRadiusAxis,
+  // Radar,
+  // RadarChart,
+  // PolarGrid,
+  // PolarAngleAxis,
+  // PolarRadiusAxis,
+  ////parti histogramme////
+  BarChart,
+  Bar,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  Legend,
 } from "recharts";
 import "../Competence/Competence.scss";
 import html from "../../assets/logo-html.png";
@@ -13,18 +21,23 @@ import sass from "../../assets/logo-sass.png";
 import javas from "../../assets/logo-js.png";
 import react from "../../assets/logo-react.png";
 
-function Compétence() {
+function Compétence({ theme }) {
   const data = [
-    { subject: "HTML", value: 4.5 },
-    { subject: "CSS", value: 3.5 },
-    { subject: "SASS", value: 4.5 },
-    { subject: "Javascript", value: 2.5 },
-    { subject: "React", value: 3 },
+    { subject: "HTML", value: 7 },
+    { subject: "CSS", value: 6 },
+    { subject: "SASS", value: 5 },
+    { subject: "Javascript", value: 2 },
+    { subject: "React", value: 2 },
   ];
 
   return (
-    <section id="Ancre-competence" className="Competence-Contenant">
-      <RadarChart
+    <section
+      id="Ancre-competence"
+      className={`Competence-Contenant ${
+        theme === "light" ? "light-theme" : ""
+      }`}
+    >
+      {/* <RadarChart
         cx={300}
         cy={250}
         outerRadius={150}
@@ -44,7 +57,21 @@ function Compétence() {
           fill="#8884d8"
           fillOpacity={0.6}
         />
-      </RadarChart>
+      </RadarChart> */}
+
+      <BarChart
+        width={600}
+        height={500}
+        data={data}
+        margin={{ top: 20, right: 30, left: 20, bottom: 5 }}
+      >
+        <CartesianGrid strokeDasharray="3 3" />
+        <XAxis dataKey="subject" />
+        <YAxis />
+        <Tooltip />
+        <Legend />
+        <Bar dataKey="value" fill="#8884d8" />
+      </BarChart>
 
       <img id="img-competence" className="html-img" src={html} alt="HTML" />
       <img id="img-competence" className="css-img" src={css} alt="CSS" />

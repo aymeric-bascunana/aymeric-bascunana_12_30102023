@@ -1,6 +1,13 @@
 .Footer-Contenant {
   // padding: 10px;
   height: 1000px;
+
+  &.light-theme {
+    background-color: white;
+    h1 {
+      color: black;
+    }
+  }
 }
 
 .ul-footer {

@@ -1,13 +1,19 @@
 .About-Contenant {
   height: 1220px;
+  &.light-theme {
+    background-color: white;
+    #div-text {
+      color: black;
+    }
+  }
 }
 
 #div-text {
   position: relative;
-  left: 344px;
+  left: 550px;
   top: 255px;
   color: white;
-  width: 75%;
+  width: 66%;
 }
 
 .info-me {
@@ -17,7 +23,7 @@
 .ordi-background {
   height: 1200px;
   position: absolute;
-  left: 58px;
+  left: 258px;
   max-width: 88%;
 }
 .tel-background {

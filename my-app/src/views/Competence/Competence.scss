@@ -1,6 +1,13 @@
 .Competence-Contenant {
   // padding: 1px;
   height: 757px;
+
+  &.light-theme {
+    background-color: white;
+    h1 {
+      color: black;
+    }
+  }
 }
 #Body-competence {
   position: relative;
@@ -11,37 +18,57 @@
 
 .html-img {
   position: relative;
-  height: 150px;
-  left: 905px;
-  bottom: 425px;
+  // height: 150px;
+  // left: 905px;
+  // bottom: 425px;
+
+  height: 120px;
+  left: 750px;
+  top: 150px;
 }
 
 .css-img {
   position: relative;
-  height: 150px;
-  left: 1042px;
-  bottom: 252px;
+  // height: 150px;
+  // left: 1042px;
+  // bottom: 252px;
+
+  height: 120px;
+  left: 746px;
+  top: 150px;
 }
 
 .sass-img {
   position: relative;
-  height: 150px;
-  top: 65px;
-  left: 811px;
+  // height: 150px;
+  // top: 65px;
+  // left: 811px;
+
+  height: 85px;
+  left: 750px;
+  top: 145px;
 }
 
 .js-img {
   position: relative;
-  height: 150px;
-  left: 217px;
-  top: 40px;
+  // height: 150px;
+  // left: 217px;
+  // top: 40px;
+
+  height: 120px;
+  left: 683px;
+  top: 150px;
 }
 
 .react-img {
   position: relative;
-  height: 150px;
-  bottom: 240px;
-  right: 107px;
+  // height: 150px;
+  // bottom: 240px;
+  // right: 107px;
+
+  height: 90px;
+  left: 626px;
+  top: 150px;
 }
 
 .recharts-wrapper {
