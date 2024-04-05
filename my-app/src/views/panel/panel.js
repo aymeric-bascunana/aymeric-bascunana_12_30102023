@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 // import { faSun, faMoon } from "@fortawesome/free-solid-svg-icons";
 
-function Panel({ toggleTheme }) {
+function Panel({ toggleTheme, showPanel }) {
   const [activeLink, setActiveLink] = useState(""); // État pour suivre le lien actif
   const [modalOpen, setModalOpen] = useState(false); // État pour contrôler l'ouverture de la modal
   // const [theme, setTheme] = useState("light");
@@ -90,7 +90,7 @@ function Panel({ toggleTheme }) {
         href="#Ancre-projet"
         onClick={() => handleNavigation("#Ancre-projet")}
       >
-        Project
+        Projet
       </a>
       <a
         className="btn-mobil"
@@ -136,7 +136,7 @@ function Panel({ toggleTheme }) {
           }`}
           href="#Ancre-projet"
         >
-          Project
+          Projet
         </a>
         <a
           className={`bouton-scroll ${
@@ -150,7 +150,11 @@ function Panel({ toggleTheme }) {
 
       <ul className="ul-contact">
         <li> 06.62.74.90.80</li>
-        <li className="mail-info">aymeric.bascunana@gmail.com</li>
+        <li className="mail-info">
+          <a href="mailto:aymeric.bascunana@gmail.com">
+            aymeric.bascunana@gmail.com
+          </a>
+        </li>
       </ul>
 
       <button
