@@ -34,45 +34,47 @@ const Competence = ({ theme }) => {
         theme === "light" ? "light-theme" : ""
       }`}
     >
-      <div className="competence">
-        <h2>Compétences</h2>
-        <div className="competence-item">
-          <span>HTML</span>
-          <div className="barre">
-            <div className="progression html" data-width="90"></div>
+      <div className="block-competence">
+        <div className="competence">
+          <h2 className="title-competence">Compétences</h2>
+          <div className="competence-item">
+            <span>HTML</span>
+            <div className="barre">
+              <div className="progression html" data-width="90"></div>
+            </div>
+          </div>
+          <div className="competence-item">
+            <span>CSS</span>
+            <div className="barre">
+              <div className="progression css" data-width="85"></div>
+            </div>
+          </div>
+          <div className="competence-item">
+            <span>SCSS</span>
+            <div className="barre">
+              <div className="progression scss" data-width="75"></div>
+            </div>
+          </div>
+          <div className="competence-item">
+            <span>JavaScript</span>
+            <div className="barre">
+              <div className="progression js" data-width="50"></div>
+            </div>
+          </div>
+          <div className="competence-item">
+            <span>React</span>
+            <div className="barre">
+              <div className="progression react" data-width="40"></div>
+            </div>
           </div>
         </div>
-        <div className="competence-item">
-          <span>CSS</span>
-          <div className="barre">
-            <div className="progression css" data-width="85"></div>
-          </div>
+        <div className="img-competence">
+          <img className="html-img" src={html} alt="HTML" />
+          <img className="css-img" src={css} alt="CSS" />
+          <img className="sass-img" src={sass} alt="SASS" />
+          <img className="js-img" src={javas} alt="JavaScript" />
+          <img className="react-img" src={react} alt="React" />
         </div>
-        <div className="competence-item">
-          <span>SCSS</span>
-          <div className="barre">
-            <div className="progression scss" data-width="75"></div>
-          </div>
-        </div>
-        <div className="competence-item">
-          <span>JavaScript</span>
-          <div className="barre">
-            <div className="progression js" data-width="50"></div>
-          </div>
-        </div>
-        <div className="competence-item">
-          <span>React</span>
-          <div className="barre">
-            <div className="progression react" data-width="40"></div>
-          </div>
-        </div>
-      </div>
-      <div className="img-competence">
-        <img className="html-img" src={html} alt="HTML" />
-        <img className="css-img" src={css} alt="CSS" />
-        <img className="sass-img" src={sass} alt="SASS" />
-        <img className="js-img" src={javas} alt="JavaScript" />
-        <img className="react-img" src={react} alt="React" />
       </div>
     </section>
   );

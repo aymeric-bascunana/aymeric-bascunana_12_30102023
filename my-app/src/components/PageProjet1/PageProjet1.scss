@@ -1,14 +1,12 @@
-.header-page1 {
+.header-page {
   font-size: 50px;
-  position: relative;
-  left: 5px;
-  top: -385px;
-  z-index: 1;
+  color: cyan;
+  text-align: center;
 }
 
 .carousel {
   position: relative;
-  top: 40px;
+
   width: 100%;
 
   object-fit: contain;
@@ -31,31 +29,38 @@
   font-size: 33px;
 }
 
-.Paragraphe-about {
-  margin: 0px;
-}
-
 .body-page {
   color: white;
   margin: 10px;
   position: relative;
-  bottom: 550px;
+  padding: 0;
+  span {
+    color: cyan;
+  }
+
   &.light-theme {
     color: black;
     background-color: white;
   }
 }
 
-.body-text {
-  border-left: solid 10px rgb(255, 255, 255);
-  border-right: solid 10px rgb(249, 249, 255);
-  margin: 50px 0px 0px 0px;
+.type-projet {
+  color: cyan;
+  font-size: 35px;
 }
 
-.zone-text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.box-paragraphe {
+  font-size: 20px;
+}
+
+.list-outil {
+  background-color: cyan;
+  border-radius: 13px;
+  color: black;
+  width: 8%;
+  height: 24px;
+  text-align: center;
+  list-style-type: none;
 }
 
 //VERSION MOBIL

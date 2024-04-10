@@ -19,40 +19,47 @@
 
 .html-img {
   height: 120px;
+  width: 70%;
 }
 
 .css-img {
   height: 120px;
+  width: 50%;
 }
 
 .sass-img {
   height: 85px;
   padding: 10px;
+  width: 70%;
 }
 
 .js-img {
   height: 120px;
-  width: 13%;
+  width: 100%;
   object-fit: cover;
 }
 
 .react-img {
   height: 90px;
+  width: 60%;
 }
 
 .img-competence {
-  width: 48%;
-  margin-left: 750px;
-}
-
-.recharts-wrapper {
-  left: 680px;
-  top: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
 
 .competence {
-  margin: 20px 20px 20px 260px;
   color: white;
+  width: 100%;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  position: relative;
+  bottom: 200px;
 }
 
 .competence-item {
@@ -62,7 +69,7 @@
 .barre {
   background-color: #f0f0f0;
   border-radius: 5px;
-  height: 20px;
+  height: 50px;
 }
 
 .progression {
@@ -97,16 +104,33 @@
   background-color: #61dbfb;
 }
 
+.block-competence {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  margin-left: 230px;
+}
+
+.title-competence {
+  font-size: 50px;
+}
+
 //VERSION MOBIL
 
 @media (max-width: 576px) {
-  #img-competence {
-    display: none;
+  // #img-competence {
+  //   display: none;
+  // }
+
+  .block-competence {
+    margin: 0;
   }
 
-  .recharts-wrapper {
-    left: auto;
-    right: 8px;
-    max-width: 100%;
+  .title-competence {
+    font-size: 40px;
+  }
+
+  .competence {
+    bottom: 170px;
   }
 }

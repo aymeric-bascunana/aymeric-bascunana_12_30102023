@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.scss";
 // import ordi from "../../assets/ordi.png";
-import tel from "../../assets/tel.png";
+// import tel from "../../assets/tel.png";
 
 function About({ theme }) {
   return (
@@ -11,9 +11,9 @@ function About({ theme }) {
         className={`About-Contenant ${theme === "light" ? "light-theme" : ""}`}
       >
         {/* <img className="ordi-background" src={ordi}></img> */}
-        <div className="block-phone">
+        {/* <div className="block-phone">
           <img className="tel-background" src={tel}></img>
-        </div>
+        </div> */}
         <div className="block-info">
           <h1 className="title">
             Bonjour <span>. </span>

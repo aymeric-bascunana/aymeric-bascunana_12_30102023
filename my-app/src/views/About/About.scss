@@ -82,30 +82,50 @@ li {
 //VERSION MOBIL
 
 @media (max-width: 576px) {
-  .ordi-background {
-    display: none;
-  }
+  // .ordi-background {
+  //   display: none;
+  // }
 
-  .tel-background {
-    display: block;
-    position: relative;
-    left: 110px;
-    max-width: 100%;
-  }
+  // .tel-background {
+  //   display: block;
+  //   position: relative;
+  //   left: 110px;
+  //   max-width: 100%;
+  // }
 
   #div-text {
-    position: absolute;
-    left: 50px;
-    top: 1760px;
+    margin: 0;
   }
 
   .About-Contenant {
     height: 1423px;
   }
 
-  .block-phone {
+  // .block-phone {
+  //   position: relative;
+  //   right: 108px;
+  //   top: 375px;
+  // }
+
+  .block-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .title {
     position: relative;
-    right: 108px;
-    top: 375px;
+    right: 290px;
+    font-size: 50px;
+  }
+
+  #div-text {
+    position: relative;
+    right: 290px;
+    font-size: 14px;
+    width: 450px;
+  }
+
+  .block-competence {
+    margin: 0;
   }
 }

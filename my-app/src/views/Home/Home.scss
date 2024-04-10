@@ -69,4 +69,7 @@ body {
 //VERSION MOBIL
 
 @media (max-width: 576px) {
+  .btn-theme {
+    display: none;
+  }
 }

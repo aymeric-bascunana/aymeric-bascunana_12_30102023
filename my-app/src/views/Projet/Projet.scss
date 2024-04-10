@@ -1,11 +1,5 @@
 .Projet-Contenant {
-  // padding: 10px;
-  height: 1000px;
-  // margin-top: 160px;
-  border: solid;
-  margin-left: 213px;
-  padding: 0;
-  margin: 200px 0px 100px 240px;
+  height: 757px;
 
   &.light-theme {
     background-color: white;
@@ -13,190 +7,34 @@
       background-color: #b4b4b4;
     }
 
-    .search-labels {
-      color: black;
-    }
-
-    .logo {
-      color: black;
-    }
-
-    .btn-window:focus {
-      background-color: #000000;
-      color: #ffffff;
-    }
-
-    .selected {
-      background-color: #000000;
-      color: #ffffff;
-    }
-
-    .body-page {
-      background-color: white;
-      color: #000000;
-    }
-
-    .body-text {
-      border-left: rgb(0, 0, 0);
-      border-right: rgb(0, 0, 0);
-    }
-
-    .carousel:hover {
-      color: #ffffff;
+    .Block-page {
+      border: solid 5px black;
     }
   }
 }
 
-.Box-projet {
-  .Projet {
-    background-color: white;
-    width: 210px;
-    height: 210px;
-    border-radius: 20px;
-    position: absolute;
-    bottom: 215px;
-    z-index: 0;
-  }
-
-  // .Projet:hover {
-  //   border: solid #34d62a;
-  //   opacity: 0.5;
-  // }
-
-  .Text-projet {
-    position: relative;
-    top: 155px;
-    left: 10px;
-    color: black;
-    font-weight: 900;
-    font-size: 20px;
-  }
-
-  .img-banner {
-    width: 205px;
-    height: 210px;
-    border-radius: 20px;
-    object-fit: contain;
-    position: relative;
-    z-index: 1;
-  }
-
-  .img-banner:hover {
-    border: solid 4px #34d62a;
-    opacity: 0.5;
-  }
-}
-
-.Box-projet2 {
-  .img-banner2 {
-    width: 205px;
-    height: 202px;
-    border-radius: 20px;
-    object-fit: contain;
-    position: relative;
-    z-index: 1;
-    left: 290px;
-    bottom: 215px;
-  }
-
-  .img-banner2:hover {
-    border: solid 4px #34d62a;
-    opacity: 0.5;
-  }
-  .Projet2 {
-    background-color: white;
-    width: 210px;
-    height: 210px;
-    border-radius: 20px;
-    position: absolute;
-    bottom: 215px;
-    left: 290px;
-    z-index: 0;
-  }
-
-  .Text-projet2 {
-    position: relative;
-    top: 155px;
-    left: 10px;
-    color: black;
-    font-weight: 900;
-    font-size: 20px;
-  }
-}
-
-//test
-
-// .Projet-Contenant {
-//   // display: flex;
-//   // justify-content: space-between; // ou d'autres valeurs selon vos besoins
-// }
-
-.btn-window {
-  height: 30px;
-  width: 100%;
-  border: none;
-  background-color: #505050;
-}
-
-.btn-window:hover {
-  background-color: black;
-  color: white;
-  border-radius: 10px;
-}
-
-.btn-window:focus {
-  background-color: #ffffff;
-  color: #000000;
+.Block-page {
+  width: 29%;
+  height: 331px;
+  object-fit: cover;
+  margin-left: 250px;
+  background-color: white;
   border-radius: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 10px;
+  z-index: 0;
 }
-
-.fenetre-buttons {
-  display: flex;
-  height: 30px;
-  width: 40%;
-  gap: 1px;
-}
-
-.fenetre-contenu {
+.img-page {
   position: relative;
-  top: 400px;
-  width: 35%;
-  left: 500px;
+  top: 120px;
+  left: 70px;
 }
 
-.search {
-  border-radius: 16px;
-  border: none;
-  height: 30px;
-}
-
-.btn-search {
-  background-color: #8a8989;
-  width: 15%;
-  height: 33px;
-  border: none;
-  border-radius: 16px;
-  position: absolute;
-  right: 0px;
-}
-
-.logo {
-  font-size: 37px;
-  color: white;
-  position: relative;
-  left: 672px;
-  top: 258px;
-  width: 19%;
-}
-
-.selected {
-  background-color: #ffffff;
-  color: #000000;
-  border-radius: 20px;
-}
-
-.search-labels {
-  color: white;
+.Page-lien {
+  margin-left: 250px;
+  color: transparent;
+  text-decoration: none;
 }
 
 //VERSION MOBIL

@@ -97,7 +97,7 @@ function Panel({ toggleTheme, showPanel }) {
         href="#Ancre-footer"
         onClick={() => handleNavigation("#Ancre-footer")}
       >
-        Footer
+        Contact
       </a>
     </div>
   );
@@ -151,7 +151,7 @@ function Panel({ toggleTheme, showPanel }) {
       <ul className="ul-contact">
         <li> 06.62.74.90.80</li>
         <li className="mail-info">
-          <a href="mailto:aymeric.bascunana@gmail.com">
+          <a className="deco-lien" href="mailto:aymeric.bascunana@gmail.com">
             aymeric.bascunana@gmail.com
           </a>
         </li>
