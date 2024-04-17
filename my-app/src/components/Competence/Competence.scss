@@ -11,6 +11,10 @@
     .competence {
       color: black;
     }
+
+    .title-competence {
+      color: #da1010;
+    }
   }
 }
 #Body-competence {
@@ -76,7 +80,7 @@
   height: 100%;
   border-radius: 5px;
   text-align: center;
-  color: black;
+  color: whites;
 }
 
 .html {
@@ -108,11 +112,13 @@
   display: flex;
   flex-direction: row-reverse;
   justify-content: flex-end;
-  margin-left: 230px;
 }
 
 .title-competence {
   font-size: 50px;
+  color: cyan;
+  border-bottom: solid 1px;
+  width: 80%;
 }
 
 //VERSION MOBIL

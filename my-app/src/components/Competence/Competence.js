@@ -36,7 +36,7 @@ const Competence = ({ theme }) => {
     >
       <div className="block-competence">
         <div className="competence">
-          <h2 className="title-competence">Compétences</h2>
+          <h2 className="title-competence">Mes Compétences</h2>
           <div className="competence-item">
             <span>HTML</span>
             <div className="barre">

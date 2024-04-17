@@ -1,10 +1,15 @@
 import React, { useState, useEffect } from "react";
 import "../panel/panel.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
+import {
+  faSun,
+  faMoon,
+  faXmark,
+  faBars,
+} from "@fortawesome/free-solid-svg-icons";
 // import { faSun, faMoon } from "@fortawesome/free-solid-svg-icons";
 
-function Panel({ toggleTheme, showPanel }) {
+function Panel({ toggleTheme, theme }) {
   const [activeLink, setActiveLink] = useState(""); // État pour suivre le lien actif
   const [modalOpen, setModalOpen] = useState(false); // État pour contrôler l'ouverture de la modal
   // const [theme, setTheme] = useState("light");
@@ -158,18 +163,33 @@ function Panel({ toggleTheme, showPanel }) {
       </ul>
 
       <button
+        className="btn-theme"
+        onClick={toggleTheme}
+        aria-label={
+          theme === "light" ? "Switch to Dark Theme" : "Switch to Light Theme"
+        }
+      >
+        {theme === "light" ? (
+          <FontAwesomeIcon icon={faSun} />
+        ) : (
+          <FontAwesomeIcon icon={faMoon} />
+        )}
+        {theme === "light"}
+      </button>
+
+      <button
         className="btn-nav"
         onClick={() => {
           setModalOpen(true);
         }}
       >
-        Navigation
+        <FontAwesomeIcon icon={faBars} />
       </button>
       {modalOpen && (
         <div className="modal">
           <div className="modal-content">
             <span className="close" onClick={closeModal}>
-              <FontAwesomeIcon icon={faArrowLeft} />
+              <FontAwesomeIcon icon={faXmark} />
             </span>
             {modalContent}
           </div>

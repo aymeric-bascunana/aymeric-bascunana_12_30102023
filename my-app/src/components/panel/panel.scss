@@ -1,11 +1,10 @@
 .side-panel {
   position: fixed;
-  top: 50%;
-  transform: translateY(-50%);
+
   background-color: #000000db;
   padding: 10px;
   height: 100%;
-  width: auto;
+  width: 220px;
   z-index: 1;
 }
 
@@ -76,12 +75,14 @@
 
 //VERSION MOBIL
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .side-panel {
-    height: 140px;
-    width: 50%;
-    top: 0;
-    background-color: transparent;
+    height: 138px;
+    width: 67%;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
   }
 
   .bouton-scroll {
@@ -102,13 +103,13 @@
 
   .btn-nav {
     position: relative;
-    top: 100px;
-    height: 40px;
-    width: 25%;
+    top: 60px;
+    height: 50px;
+    width: 10%;
     background-color: cyan;
     border: none;
     display: block;
-    border-radius: 15px;
+    border-radius: 20px;
   }
 
   .modal-content {
@@ -116,22 +117,22 @@
   }
 
   .modal-panel {
-    width: 425px;
+    width: 100%;
     height: 350px;
     position: absolute;
-    background-color: #000000db;
+    background-color: rgba(0, 0, 0, 0.8588235294);
     left: 0;
-    top: 80px;
+    top: 0;
     display: flex;
-    flex-direction: column;
     justify-content: space-evenly;
+    flex-direction: column;
   }
 
   .btn-mobil {
     display: flex;
     position: relative;
     top: 6px;
-    left: 100px;
+    left: 190px;
     background-color: white;
     width: 50%;
     height: 48px;
@@ -145,9 +146,14 @@
   .close {
     position: relative;
     top: 62px;
+    right: 355px;
     color: white;
     display: flex;
     font-size: 35px;
     z-index: 1;
+  }
+
+  .btn-theme {
+    top: 78px;
   }
 }

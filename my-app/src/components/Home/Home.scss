@@ -29,6 +29,10 @@
 //   color: black;
 // }
 
+main {
+  padding-left: 240px;
+}
+
 section {
   background-color: #171717;
   padding-top: 200px;
@@ -68,8 +72,12 @@ body {
 }
 //VERSION MOBIL
 
-@media (max-width: 576px) {
-  .btn-theme {
-    display: none;
+@media (max-width: 768px) {
+  // .btn-theme {
+  //   display: none;
+  // }
+
+  main {
+    padding: 0;
   }
 }

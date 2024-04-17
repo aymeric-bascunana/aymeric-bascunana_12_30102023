@@ -10,9 +10,13 @@ function Header({ theme }) {
     >
       {/* <img className="font-header" src={code}></img> */}
       <div id="header-text">
-        <h1 className="text">Aymeric</h1>
-        <h2 className="text">Developpeur</h2>
-        <h2 className="text">WEB</h2>
+        <h1 className="text">
+          Aymeric <span>Bascunana </span>{" "}
+        </h1>
+        <h2 className="text">
+          Developpeur <span>WEB</span>
+        </h2>
+        {/* <h2 className="text">WEB</h2> */}
       </div>
     </header>
   );

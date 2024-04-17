@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./Projet.scss";
 import { NavLink } from "react-router-dom";
-import Projet1 from "../../components/PageProjet1/PageProjet1";
-import Projet2 from "../../components/PageProjet2/PageProjet2";
+import Projet1 from "../../views/PageProjet1/PageProjet1";
+import Projet2 from "../../views/PageProjet2/PageProjet2";
 import Ohmyfood from "../../assets/TitreOhmyfood.PNG";
 import Printit from "../../assets/TitrePrintit.PNG";
 
@@ -12,12 +12,19 @@ function Projet({ theme }) {
       id="Ancre-projet"
       className={`Projet-Contenant ${theme === "light" ? "light-theme" : ""}`}
     >
+      <h1 className="title-projet">
+        {" "}
+        <span className="deco-title">Mes Projets</span>{" "}
+      </h1>
+      <h2 className="info-projet">
+        Ici vous retrouverez mes projet que j'ai réaliser{" "}
+      </h2>
       <div className="Projet-block">
         <NavLink
           className="Page-lien"
           activeClassName="active"
           exact
-          to="/PageProjet1"
+          to="/Ohmyfood"
         >
           <div className="Block-page">
             <img className="img-page" src={Ohmyfood}></img>
@@ -29,7 +36,7 @@ function Projet({ theme }) {
           className="Page-lien"
           activeClassName="active"
           exact
-          to="/PageProjet2"
+          to="/Printit"
         >
           <div className="Block-page">
             <img className="img-page" src={Printit}></img>

@@ -10,7 +10,23 @@ function Footer({ theme }) {
       >
         <div id="Body-text">
           <h2 className="titre-contact">Contact</h2>
-          <form action="#">
+          <div className="info-contact">
+            <h3 className="contact-name">
+              Aymeric <span> Bascunana </span>
+            </h3>
+            <ul className="list-contact">
+              <li>
+                {" "}
+                <span className="tag-contact">Mail</span> :
+                aymeric.bascunana@gmail.com
+              </li>
+              <li>
+                <span className="tag-contact">telephone</span>: 06.62.74.90.80
+              </li>
+            </ul>
+          </div>
+
+          {/* <form action="#">
             <label> Prénom</label>
             <input
               disabled
@@ -38,7 +54,7 @@ function Footer({ theme }) {
               placeholder="06.62.74.90.80"
             />
             <input disabled className="btn" type="submit" value="Envoyer" />
-          </form>
+          </form> */}
         </div>
       </section>
     </>

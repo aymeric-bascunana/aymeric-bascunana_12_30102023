@@ -22,7 +22,7 @@ function About({ theme }) {
             {/* <h2 i className="Name-Portfolio">
             </h2> */}
             <p className="info-me">
-              je m'appelle Aymeric Bascunana, Je suis étudiant débutant en code
+              Je m'appelle Aymeric Bascunana, Je suis étudiant débutant en code
               html, css, scss, Javascript et react,passionné par la création web
               et la résolution de problèmes.
             </p>

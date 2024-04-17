@@ -57,12 +57,58 @@
   background-color: cyan;
   border-radius: 13px;
   color: black;
-  width: 8%;
+  width: 20%;
   height: 24px;
   text-align: center;
   list-style-type: none;
 }
 
+.body-text {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.body-outils {
+  width: 50%;
+}
+
+.body-info {
+  width: 50%;
+}
+
+.image-logo {
+  width: 56%;
+  height: 334px;
+  background-color: white;
+  text-align: center;
+  margin-left: 350px;
+
+  .img-logo {
+    position: relative;
+    top: 110px;
+  }
+}
+
+.btn-page {
+  width: 20%;
+  height: 50px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  margin: 50px 0px 0px 700px;
+}
+
+.titre-expo {
+  color: cyan;
+  padding-left: 800px;
+}
+
+.img-expo {
+  width: 80%;
+  height: 401px;
+  padding-left: 170px;
+  object-fit: cover;
+}
 //VERSION MOBIL
 
 @media (max-width: 576px) {
