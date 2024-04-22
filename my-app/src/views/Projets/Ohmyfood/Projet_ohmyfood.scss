@@ -27,6 +27,7 @@
 
 .lien:hover {
   font-size: 33px;
+  color: cyan;
 }
 
 .body-page {
@@ -66,14 +67,15 @@
 .body-text {
   display: flex;
   flex-direction: row-reverse;
+  padding: 50px 150px;
 }
 
 .body-outils {
-  width: 50%;
+  width: 40%;
 }
 
 .body-info {
-  width: 50%;
+  width: 40%;
 }
 
 .image-logo {
@@ -81,7 +83,7 @@
   height: 334px;
   background-color: white;
   text-align: center;
-  margin-left: 350px;
+  margin-left: 400px;
 
   .img-logo {
     position: relative;
@@ -95,23 +97,34 @@
   border-radius: 25px;
   border: none;
   cursor: pointer;
-  margin: 50px 0px 0px 700px;
+  margin: 50px 0px 0px 750px;
+}
+
+.btn-page:hover {
+  width: 21%;
+  height: 51px;
+  background-color: cyan;
 }
 
 .titre-expo {
   color: cyan;
-  padding-left: 800px;
+  padding-left: 850px;
 }
 
 .img-expo {
-  width: 80%;
+  width: 60%;
   height: 401px;
-  padding-left: 170px;
+  padding-left: 350px;
   object-fit: cover;
+}
+
+.info-projet {
+  color: white;
+  padding-left: 500px;
 }
 //VERSION MOBIL
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .header-page1 {
     left: 10px;
     width: 85%;
@@ -133,5 +146,9 @@
   .body-text {
     position: relative;
     bottom: 50px;
+  }
+
+  .info-projet {
+    padding-left: 120px;
   }
 }

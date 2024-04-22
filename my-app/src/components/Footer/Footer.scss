@@ -7,6 +7,26 @@
     h1 {
       color: black;
     }
+
+    .contact-name {
+      color: black;
+    }
+
+    .list-contact {
+      color: black;
+    }
+
+    .tag-contact {
+      background-color: #da1010;
+    }
+
+    .Name {
+      color: #da1010;
+    }
+
+    .titre-contact {
+      color: #da1010;
+    }
   }
 }
 
@@ -39,11 +59,11 @@ span {
 }
 
 .tag-contact {
-  border: solid cyan;
+  // border: solid cyan;
   background-color: cyan;
   border-radius: 10px;
   color: black;
-  padding: 0px 10px;
+  padding: 3px 15px;
 }
 
 .ul-footer {
@@ -93,7 +113,7 @@ label {
 
 //VERSION MOBIL
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .info {
     width: 100%;
   }
@@ -108,11 +128,23 @@ label {
   }
 
   #Body-text {
-    width: 55%;
-    position: relative;
-    left: 75px;
-    top: 0;
-    text-align: center;
-    margin: 0;
+    text-align: left;
+    left: 0;
+    padding-left: 290px;
+    width: 25%;
+  }
+
+  .info-contact {
+    flex-direction: column;
+    // padding-left: 20px;
+    // width: 100%;
+  }
+
+  .list-contact {
+    flex-direction: column;
+  }
+
+  .contact-name {
+    font-size: 21px;
   }
 }

@@ -78,7 +78,7 @@
 @media (max-width: 768px) {
   .side-panel {
     height: 138px;
-    width: 67%;
+    width: 100%;
     top: 0px;
     display: flex;
     justify-content: center;
@@ -104,6 +104,7 @@
   .btn-nav {
     position: relative;
     top: 60px;
+    right: 20px;
     height: 50px;
     width: 10%;
     background-color: cyan;
@@ -145,8 +146,8 @@
 
   .close {
     position: relative;
-    top: 62px;
-    right: 355px;
+    top: 17px;
+    right: 388px;
     color: white;
     display: flex;
     font-size: 35px;

@@ -81,7 +81,7 @@ li {
 
 //VERSION MOBIL
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   // .ordi-background {
   //   display: none;
   // }
@@ -110,17 +110,19 @@ li {
   .block-info {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 
   .title {
     position: relative;
-    right: 290px;
+
     font-size: 50px;
   }
 
   #div-text {
     position: relative;
-    right: 290px;
+
     font-size: 14px;
     width: 450px;
   }

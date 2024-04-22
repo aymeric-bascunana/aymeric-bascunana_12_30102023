@@ -3,10 +3,11 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
 // import App from "./App";
-import Home from "./components/Home/Home";
+import Home from "./views/Home/Home";
 import reportWebVitals from "./reportWebVitals";
-import Projet1 from "./views/PageProjet1/PageProjet1";
-import Projet2 from "./views/PageProjet2/PageProjet2";
+import Ohmyfood from "./views/Projets/Ohmyfood/Projet_ohmyfood";
+import Printit from "./views/Projets/Printit/Projet_printit";
+
 // import Panel from "./views/panel/panel";
 
 // import About from "./views/About/About";
@@ -19,8 +20,8 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Ohmyfood" element={<Projet1 />} />
-        <Route path="/Printit" element={<Projet2 />} />
+        <Route path="/Ohmyfood" element={<Ohmyfood />} />
+        <Route path="/Printit" element={<Printit />} />
 
         {/* <Route path="*" element={<Error />} /> */}
       </Routes>

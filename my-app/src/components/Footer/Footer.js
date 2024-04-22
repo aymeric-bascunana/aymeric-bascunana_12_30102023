@@ -12,7 +12,7 @@ function Footer({ theme }) {
           <h2 className="titre-contact">Contact</h2>
           <div className="info-contact">
             <h3 className="contact-name">
-              Aymeric <span> Bascunana </span>
+              Aymeric <span className="Name"> Bascunana </span>
             </h3>
             <ul className="list-contact">
               <li>

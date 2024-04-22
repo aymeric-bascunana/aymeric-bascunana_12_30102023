@@ -1,16 +1,16 @@
 import React from "react";
-import "./PageProjet1.scss";
-import image from "../../assets/TitreOhmyfood.PNG";
-import carouselOhmyfood from "../../assets/OhmyfoodMenu.PNG";
+import "./Projet_ohmyfood.scss";
+import image from "../../../assets/TitreOhmyfood.PNG";
+import carouselOhmyfood from "../../../assets/OhmyfoodMenu.PNG";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import { NavLink } from "react-router-dom";
-import Ohmyfood from "../../assets/TitreOhmyfood.PNG";
-import accueilohmyfood from "../../assets/accueilohmyfood.PNG";
-import menuohmyfood from "../../assets/Menuohmyfood.PNG";
-import commandeohmyfood from "../../assets/Commandeohmyfood.PNG";
-import commande2ohmyfood from "../../assets/Commande2ohmyfood.PNG";
-function Projet1({ theme }) {
+import titreOhmyfood from "../../../assets/TitreOhmyfood.PNG";
+import accueilohmyfood from "../../../assets/accueilohmyfood.PNG";
+import menuohmyfood from "../../../assets/Menuohmyfood.PNG";
+import commandeohmyfood from "../../../assets/Commandeohmyfood.PNG";
+import commande2ohmyfood from "../../../assets/Commande2ohmyfood.PNG";
+function Ohmyfood({ theme }) {
   return (
     <>
       <NavLink className="lien" activeClassName="active" exact to="/">
@@ -26,7 +26,7 @@ function Projet1({ theme }) {
           Ohmyfood <span> .</span>
         </h2>
         <div className="image-logo">
-          <img className="img-logo" src={Ohmyfood}></img>
+          <img className="img-logo" src={titreOhmyfood}></img>
         </div>
 
         <a
@@ -81,4 +81,4 @@ function Projet1({ theme }) {
   );
 }
 
-export default Projet1;
+export default Ohmyfood;

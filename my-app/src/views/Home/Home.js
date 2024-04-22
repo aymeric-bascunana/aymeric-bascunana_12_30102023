@@ -2,11 +2,11 @@ import React, { useState } from "react";
 import "../Home/Home.scss";
 
 import Header from "../../components/Header/Header";
-import About from "../About/About";
-import Compétence from "../Competence/Competence";
-import Projet from "../../views/Projet/Projet";
-import Footer from "../Footer/Footer";
-import Panel from "../panel/panel";
+import About from "../../components/About/About";
+import Compétence from "../../components/Competence/Competence";
+import Projet from "../../components/Projet/Projet";
+import Footer from "../../components/Footer/Footer";
+import Panel from "../../components/panel/panel";
 
 function Home() {
   const [theme, setTheme] = useState("light");

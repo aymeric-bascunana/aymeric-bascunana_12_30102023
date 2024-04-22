@@ -1,14 +1,14 @@
 import React from "react";
-import "./PageProjet2.scss";
-import image from "../../assets/TitrePrintit.PNG";
-import CarouselPrintit from "../../assets/CarouselPrintit.PNG";
+import "./Projet_printit.scss";
+import image from "../../../assets/TitrePrintit.PNG";
+import CarouselPrintit from "../../../assets/CarouselPrintit.PNG";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import { NavLink } from "react-router-dom";
-import Printit from "../../assets/TitrePrintit.PNG";
-import pagecarouselprintit from "../../assets/PageCarouselPrintit.PNG";
+import titrePrintit from "../../../assets/TitrePrintit.PNG";
+import pagecarouselprintit from "../../../assets/PageCarouselPrintit.PNG";
 
-function Projet2({ theme }) {
+function Printit({ theme }) {
   return (
     <>
       <NavLink className="lien" activeClassName="active" exact to="/">
@@ -18,12 +18,12 @@ function Projet2({ theme }) {
       <section
         className={`body-page ${theme === "light" ? "light-theme" : ""}`}
       >
-        <h2>
+        <h2 className="info-projet">
           Voici l'un de mes projet réaliser où j'ai dû modifier un site web pour
           Print it!
         </h2>
         <div className="image-logo">
-          <img className="img-logo" src={Printit}></img>
+          <img className="img-logo" src={titrePrintit}></img>
         </div>
         <a
           className="img-lien"
@@ -68,4 +68,4 @@ function Projet2({ theme }) {
   );
 }
 
-export default Projet2;
+export default Printit;
