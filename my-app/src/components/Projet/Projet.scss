@@ -61,6 +61,11 @@
   width: 80%;
 }
 
+.info-projet {
+  color: white;
+  padding-left: 30px;
+}
+
 //VERSION MOBIL
 
 @media (max-width: 768px) {
@@ -101,5 +106,9 @@
 
   .deco-title {
     width: 53%;
+  }
+
+  .info-projet {
+    padding-left: 120px;
   }
 }

@@ -48,6 +48,18 @@
   height: 900px;
 }
 
+.display-body {
+  display: flex;
+  gap: 300px;
+}
+
+.logo-me {
+  border-radius: 90px;
+  height: 356px;
+  position: relative;
+  top: 190px;
+}
+
 //VERSION MOBIL
 
 @media (max-width: 576px) {

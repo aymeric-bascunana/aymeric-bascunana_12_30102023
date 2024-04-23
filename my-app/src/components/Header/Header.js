@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import "./Header.scss";
+import Logo from "../../assets/Logo-aymeric.png";
 // import code from "../../assets/code.png";
 
 function Header({ theme }) {
@@ -9,14 +10,17 @@ function Header({ theme }) {
       className={`header ${theme === "light" ? "light-theme" : ""}`}
     >
       {/* <img className="font-header" src={code}></img> */}
-      <div id="header-text">
-        <h1 className="text">
-          Aymeric <span>Bascunana </span>{" "}
-        </h1>
-        <h2 className="text">
-          Developpeur <span>WEB</span>
-        </h2>
-        {/* <h2 className="text">WEB</h2> */}
+      <div className="display-body">
+        <div id="header-text">
+          <h1 className="text">
+            Aymeric <span>Bascunana </span>{" "}
+          </h1>
+          <h2 className="text">
+            Developpeur <span>WEB</span>
+          </h2>
+        </div>
+
+        <img className="logo-me" src={Logo}></img>
       </div>
     </header>
   );

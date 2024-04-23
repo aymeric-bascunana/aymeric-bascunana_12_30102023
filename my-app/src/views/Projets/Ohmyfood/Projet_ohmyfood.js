@@ -21,7 +21,7 @@ function Ohmyfood({ theme }) {
       <section
         className={`body-page ${theme === "light" ? "light-theme" : ""}`}
       >
-        <h2 className="info-projet">
+        <h2 className="info-projet-display">
           Voici l'un de mes projet réaliser où j'ai dû créer un site web pour
           Ohmyfood <span> .</span>
         </h2>
