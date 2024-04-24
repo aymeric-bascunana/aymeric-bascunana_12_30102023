@@ -125,15 +125,8 @@
 //VERSION MOBIL
 
 @media (max-width: 768px) {
-  .header-page1 {
-    left: 10px;
-    width: 85%;
-    bottom: 349px;
-  }
-
-  .img-lien {
-    position: relative;
-    bottom: 80px;
+  .header-page {
+    z-index: 1;
   }
 
   .body-page {
@@ -144,7 +137,52 @@
   }
 
   .body-text {
-    position: relative;
-    bottom: 50px;
+    flex-direction: column;
+    padding: 50px 163px;
+    text-align: center;
+  }
+
+  .image-logo {
+    width: 98%;
+    height: 253px;
+    background-color: white;
+    text-align: center;
+    margin: 275px 0px 0px 5px;
+    z-index: 0;
+  }
+
+  .lien {
+    z-index: 1;
+    top: 50px;
+    left: 70px;
+    font-size: 40px;
+  }
+
+  .btn-page {
+    margin: 50px 0px 0px 300px;
+  }
+
+  .body-info {
+    width: 100%;
+  }
+
+  .body-outils {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .list-outil {
+      width: 100%;
+    }
+  }
+
+  .titre-expo {
+    padding-left: 300px;
+  }
+
+  .img-expo {
+    width: 100%;
+    padding: 0;
   }
 }
