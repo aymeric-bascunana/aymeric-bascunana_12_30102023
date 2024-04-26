@@ -24,7 +24,7 @@ function Projet({ theme }) {
           className="Page-lien"
           activeClassName="active"
           exact
-          to="/Ohmyfood"
+          to="Projet/Ohmyfood"
         >
           <div className="Block-page">
             <img className="img-page" src={Ohmyfood}></img>
@@ -36,7 +36,7 @@ function Projet({ theme }) {
           className="Page-lien"
           activeClassName="active"
           exact
-          to="/Printit"
+          to="Projet/Printit"
         >
           <div className="Block-page">
             <img className="img-page" src={Printit}></img>

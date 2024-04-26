@@ -158,3 +158,26 @@
     top: 78px;
   }
 }
+
+@media (max-width: 576px) {
+  .side-panel {
+    width: 66%;
+  }
+
+  .btn-theme {
+    left: 340px;
+  }
+
+  .btn-nav {
+    width: 20%;
+    right: 0;
+  }
+
+  .btn-mobil {
+    left: 100px;
+  }
+
+  .close {
+    right: 200px;
+  }
+}

@@ -20,8 +20,8 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Ohmyfood" element={<Ohmyfood />} />
-        <Route path="/Printit" element={<Printit />} />
+        <Route path="Projet/Ohmyfood" element={<Ohmyfood />} />
+        <Route path="Projet/Printit" element={<Printit />} />
 
         {/* <Route path="*" element={<Error />} /> */}
       </Routes>

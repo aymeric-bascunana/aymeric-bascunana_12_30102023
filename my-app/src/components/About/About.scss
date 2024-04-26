@@ -124,10 +124,20 @@ li {
     position: relative;
 
     font-size: 14px;
-    width: 450px;
+    width: 100%;
   }
 
   .block-competence {
     margin: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  #div-text {
+    width: 90%;
+  }
+
+  .block-info {
+    padding-left: 0;
   }
 }
