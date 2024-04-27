@@ -144,3 +144,10 @@ label {
     font-size: 21px;
   }
 }
+
+@media (max-width: 576px) {
+  #Body-text {
+    padding-left: 20px;
+    width: 95%;
+  }
+}

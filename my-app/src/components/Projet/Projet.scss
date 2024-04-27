@@ -112,3 +112,30 @@
     padding-left: 120px;
   }
 }
+
+@media (max-width: 576px) {
+  .title-projet {
+    padding-left: 10px;
+  }
+
+  .deco-title {
+    width: 73%;
+  }
+
+  .info-projet {
+    padding-left: 10px;
+  }
+
+  .Projet-block {
+    padding-left: 20px;
+  }
+
+  .Block-page {
+    width: 89%;
+  }
+
+  .img-page {
+    width: 100%;
+    left: 0;
+  }
+}
