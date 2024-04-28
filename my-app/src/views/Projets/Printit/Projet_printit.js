@@ -51,7 +51,7 @@ function Printit({ theme }) {
             <p className="box-paragraphe">
               Les outils utiliser dans ce projet:
             </p>
-            <ul>
+            <ul className="block-list">
               <li className="list-outil">HTML</li>
               <li className="list-outil">CSS</li>
               <li className="list-outil">Javascript</li>

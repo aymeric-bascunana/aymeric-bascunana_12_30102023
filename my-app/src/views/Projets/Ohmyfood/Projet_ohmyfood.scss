@@ -186,3 +186,57 @@
     padding: 0;
   }
 }
+
+@media (max-width: 576px) {
+  .info-projet-display {
+    padding-left: 0;
+  }
+
+  .lien {
+    left: 29px;
+    font-size: 30px;
+  }
+
+  .header-page {
+    font-size: 45px;
+  }
+
+  .image-logo {
+    height: 285px;
+  }
+
+  .img-lien {
+    position: relative;
+    bottom: 0;
+    right: 160px;
+  }
+
+  .btn-page {
+    width: 35%;
+  }
+
+  .body-text {
+    padding: 34px 0px;
+    text-align: left;
+  }
+  .type-projet {
+    text-align: center;
+  }
+
+  .list-outil {
+    font-size: 14px;
+    padding: 3px;
+  }
+
+  .titre-expo {
+    padding-left: 125px;
+  }
+
+  .img-expo {
+    height: 258px;
+  }
+
+  .block-list {
+    padding: 0;
+  }
+}
