@@ -127,6 +127,7 @@
 @media (max-width: 768px) {
   .header-page {
     z-index: 1;
+    position: relative;
   }
 
   .body-page {
@@ -184,6 +185,32 @@
   .img-expo {
     width: 100%;
     padding: 0;
+  }
+}
+
+@media (max-width: 760px) {
+  .btn-page {
+    margin: 50px 0px 0px 250px;
+  }
+
+  .info-projet-display {
+    padding-top: 500px;
+    padding-left: 0;
+    z-index: 0;
+  }
+
+  .header-page {
+    z-index: 1;
+    padding-top: 10px;
+    position: relative;
+  }
+
+  .image-logo {
+    margin: 70px 0px 0px 5px;
+  }
+
+  .titre-expo {
+    padding-left: 210px;
   }
 }
 
