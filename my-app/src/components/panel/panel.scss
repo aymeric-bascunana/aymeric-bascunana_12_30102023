@@ -159,6 +159,12 @@
   }
 }
 
+@media (max-width: 760px) {
+  .btn-theme {
+    left: 540px;
+  }
+}
+
 @media (max-width: 576px) {
   .side-panel {
     width: 95%;

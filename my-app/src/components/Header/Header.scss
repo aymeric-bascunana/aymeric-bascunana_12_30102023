@@ -79,6 +79,12 @@
   }
 }
 
+@media (max-width: 760px) {
+  #header-text {
+    margin-left: 170px;
+  }
+}
+
 @media (max-width: 576px) {
   #header-text {
     margin-left: 0;
