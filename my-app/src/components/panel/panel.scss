@@ -75,6 +75,9 @@
 
 //VERSION MOBIL
 
+@media (max-width: 780px) {
+}
+
 @media (max-width: 768px) {
   .side-panel {
     height: 138px;
@@ -156,6 +159,7 @@
 
   .btn-theme {
     top: 78px;
+    left: 530px;
   }
 }
 
@@ -171,7 +175,7 @@
   }
 
   .btn-theme {
-    left: 340px;
+    left: 430px;
   }
 
   .btn-nav {
@@ -180,10 +184,10 @@
   }
 
   .btn-mobil {
-    left: 100px;
+    left: 135px;
   }
 
   .close {
-    right: 200px;
+    right: 260px;
   }
 }

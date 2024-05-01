@@ -93,7 +93,7 @@
 
   .Projet-block {
     flex-direction: column;
-    padding-left: 140px;
+    padding-left: 150px;
   }
 
   .Block-page {
@@ -110,6 +110,12 @@
 
   .info-projet {
     padding-left: 120px;
+  }
+}
+
+@media (max-width: 600px) {
+  .Block-page {
+    width: 87%;
   }
 }
 
