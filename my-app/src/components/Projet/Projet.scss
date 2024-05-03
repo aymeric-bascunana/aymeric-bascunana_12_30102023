@@ -68,6 +68,33 @@
 
 //VERSION MOBIL
 
+@media (max-width: 1000px) {
+  .Projet-block {
+    flex-direction: column;
+  }
+
+  .Block-page {
+    width: 85%;
+  }
+
+  .title-projet {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 900px) {
+  .Projet-block {
+    flex-direction: column;
+  }
+
+  .Block-page {
+    width: 85%;
+  }
+
+  .title-projet {
+    font-size: 34px;
+  }
+}
 @media (max-width: 768px) {
   .Projet-Contenant {
     margin-left: 3px;

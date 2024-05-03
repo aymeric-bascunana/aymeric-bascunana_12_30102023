@@ -127,6 +127,26 @@
 
 //VERSION MOBIL
 
+@media (max-width: 1000px) {
+  .competence {
+    bottom: 140px;
+  }
+
+  .title-competence {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 900px) {
+  .competence {
+    bottom: 140px;
+  }
+
+  .title-competence {
+    font-size: 34px;
+  }
+}
+
 @media (max-width: 576px) {
   // #img-competence {
   //   display: none;

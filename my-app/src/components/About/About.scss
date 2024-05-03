@@ -81,9 +81,24 @@ li {
 
 //VERSION MOBIL
 
+@media (max-width: 1000px) {
+  .block-info {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+  }
+}
+
 @media (max-width: 780px) {
   .About-Contenant {
     height: 2000px;
+  }
+}
+@media (max-width: 900px) {
+  .block-info {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
   }
 }
 
