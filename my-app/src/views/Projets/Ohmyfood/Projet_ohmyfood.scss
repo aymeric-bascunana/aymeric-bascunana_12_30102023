@@ -124,6 +124,48 @@
 }
 //VERSION MOBIL
 
+@media (max-width: 1000px) {
+  .lien {
+    left: 60px;
+    top: 50px;
+  }
+
+  .info-projet-display {
+    padding-left: 0;
+    font-size: 23px;
+  }
+
+  .image-logo {
+    margin-left: 155px;
+    width: 65%;
+  }
+
+  .btn-page {
+    margin: 50px 0px 0px 350px;
+  }
+
+  .body-text {
+    padding: 150px 0px;
+  }
+
+  .body-info {
+    width: 50%;
+  }
+
+  .titre-expo {
+    padding-left: 350px;
+  }
+
+  .img-expo {
+    width: 70%;
+    padding-left: 140px;
+  }
+
+  .list-outil {
+    width: 24%;
+  }
+}
+
 @media (max-width: 768px) {
   .header-page {
     z-index: 1;
