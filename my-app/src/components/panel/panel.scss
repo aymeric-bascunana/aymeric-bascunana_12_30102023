@@ -75,7 +75,7 @@
 
 //VERSION MOBIL
 
-@media (max-width: 780px) {
+@media (max-width: 1000px) {
 }
 
 @media (max-width: 768px) {
@@ -107,9 +107,9 @@
   .btn-nav {
     position: relative;
     top: 60px;
-    right: 20px;
+
     height: 50px;
-    width: 10%;
+    width: 12%;
     background-color: cyan;
     border: none;
     display: block;
@@ -159,13 +159,14 @@
 
   .btn-theme {
     top: 78px;
-    left: 530px;
+    right: 75px;
   }
 }
 
 @media (max-width: 760px) {
   .btn-theme {
-    left: 540px;
+    right: 75px;
+    left: initial;
   }
 }
 
@@ -175,12 +176,11 @@
   }
 
   .btn-theme {
-    left: 430px;
+    right: 75px;
   }
 
   .btn-nav {
-    width: 20%;
-    right: 0;
+    width: 12%;
   }
 
   .btn-mobil {

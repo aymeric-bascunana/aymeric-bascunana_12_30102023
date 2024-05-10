@@ -21,7 +21,7 @@ function Footer({ theme }) {
                 aymeric.bascunana@gmail.com
               </li>
               <li>
-                <span className="tag-contact">telephone</span>: 06.62.74.90.80
+                <span className="tag-contact">telephone</span> : 06.62.74.90.80
               </li>
             </ul>
           </div>

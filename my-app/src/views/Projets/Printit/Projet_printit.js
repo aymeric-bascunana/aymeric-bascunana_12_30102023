@@ -8,7 +8,7 @@ import { NavLink } from "react-router-dom";
 import titrePrintit from "../../../assets/TitrePrintit.PNG";
 import pagecarouselprintit from "../../../assets/PageCarouselPrintit.PNG";
 
-function Printit({ theme }) {
+function Printit({ theme, toggleTheme }) {
   return (
     <>
       <NavLink className="lien" activeClassName="active" exact to="/">

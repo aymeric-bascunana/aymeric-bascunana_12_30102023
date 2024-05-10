@@ -1,7 +1,7 @@
 import React from "react";
 import "./Projet_ohmyfood.scss";
-import image from "../../../assets/TitreOhmyfood.PNG";
-import carouselOhmyfood from "../../../assets/OhmyfoodMenu.PNG";
+// import image from "../../../assets/TitreOhmyfood.PNG";
+// import carouselOhmyfood from "../../../assets/OhmyfoodMenu.PNG";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import { NavLink } from "react-router-dom";
@@ -10,7 +10,9 @@ import accueilohmyfood from "../../../assets/accueilohmyfood.PNG";
 import menuohmyfood from "../../../assets/Menuohmyfood.PNG";
 import commandeohmyfood from "../../../assets/Commandeohmyfood.PNG";
 import commande2ohmyfood from "../../../assets/Commande2ohmyfood.PNG";
-function Ohmyfood({ theme }) {
+// import { faSun, faMoon } from "@fortawesome/free-solid-svg-icons";
+
+function Ohmyfood({ theme, toggleTheme }) {
   return (
     <>
       <NavLink className="lien" activeClassName="active" exact to="/">
@@ -18,6 +20,20 @@ function Ohmyfood({ theme }) {
       </NavLink>
       {/* <img className="header-page1" src={image}></img> */}
       <h1 className="header-page">Ohmyfood </h1>
+      {/* <button
+        className="btn-theme"
+        onClick={toggleTheme}
+        aria-label={
+          theme === "light" ? "Switch to Dark Theme" : "Switch to Light Theme"
+        }
+      >
+        {theme === "light" ? (
+          <FontAwesomeIcon icon={faSun} />
+        ) : (
+          <FontAwesomeIcon icon={faMoon} />
+        )}
+        {theme === "light"}
+      </button> */}
       <section
         className={`body-page ${theme === "light" ? "light-theme" : ""}`}
       >

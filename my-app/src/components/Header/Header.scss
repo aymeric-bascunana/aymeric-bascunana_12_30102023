@@ -22,7 +22,7 @@
   // top: 190px;
   // left: 1029px;
   // color: white;
-  padding: 260px 0px 0px 80px;
+  padding: 260px 0px 0px 165px;
   color: white;
   span {
     color: cyan;
@@ -70,7 +70,7 @@
 
   .logo-me {
     height: 351px;
-    width: 72%;
+    // width: 72%;
     top: 0;
     margin: auto;
   }
@@ -84,7 +84,7 @@
 
   .logo-me {
     height: 351px;
-    width: 75%;
+    // width: 75%;
     top: 0;
     margin: auto;
   }
@@ -93,7 +93,6 @@
   #header-text {
     left: 220px;
     top: 100px;
-    margin-left: 145px;
   }
 
   .text {
@@ -108,13 +107,13 @@
 
 @media (max-width: 760px) {
   #header-text {
-    margin-left: 170px;
+    margin: auto;
+    text-align: -webkit-center;
   }
 }
 
 @media (max-width: 576px) {
   #header-text {
-    margin-left: 0;
-    padding-left: 140px;
+    padding-left: 50px;
   }
 }

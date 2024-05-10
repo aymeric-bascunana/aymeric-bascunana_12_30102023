@@ -20,11 +20,11 @@ function Home() {
       <div className={`App ${theme === "dark" ? "dark-theme" : ""}`}>
         <Panel theme={theme} toggleTheme={toggleTheme} />
         <main>
-          <Header theme={theme} />
-          <About theme={theme} />
-          <Compétence theme={theme} />
-          <Projet theme={theme} />
-          <Footer theme={theme} />
+          <Header theme={theme} toggleTheme={toggleTheme} />
+          <About theme={theme} toggleTheme={toggleTheme} />
+          <Compétence theme={theme} toggleTheme={toggleTheme} />
+          <Projet theme={theme} toggleTheme={toggleTheme} />
+          <Footer theme={theme} toggleTheme={toggleTheme} />
         </main>
       </div>
     </>

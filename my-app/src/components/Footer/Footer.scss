@@ -125,6 +125,10 @@ label {
   .list-contact {
     flex-direction: column;
   }
+
+  #Body-text {
+    padding-left: 30px;
+  }
 }
 
 @media (max-width: 900px) {

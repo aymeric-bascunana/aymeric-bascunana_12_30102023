@@ -12,10 +12,7 @@ function Projet({ theme }) {
       id="Ancre-projet"
       className={`Projet-Contenant ${theme === "light" ? "light-theme" : ""}`}
     >
-      <h1 className="title-projet">
-        {" "}
-        <span className="deco-title">Mes Projets</span>{" "}
-      </h1>
+      <h1 className="title-projet">Mes Projets</h1>
       <h2 className="info-projet">
         Ici vous retrouverez mes projet que j'ai réaliser{" "}
       </h2>
@@ -28,7 +25,6 @@ function Projet({ theme }) {
         >
           <div className="Block-page">
             <img className="img-page" src={Ohmyfood}></img>
-            Projet1
           </div>
         </NavLink>
 
@@ -40,7 +36,6 @@ function Projet({ theme }) {
         >
           <div className="Block-page">
             <img className="img-page" src={Printit}></img>
-            Projet2
           </div>
         </NavLink>
       </div>
