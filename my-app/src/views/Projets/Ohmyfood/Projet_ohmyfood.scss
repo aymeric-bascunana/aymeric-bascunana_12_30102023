@@ -282,7 +282,7 @@
 
   .btn-page {
     width: 35%;
-    margin: 50px 0px 0px 325px;
+    margin: 50px 0px 0px 320px;
   }
 
   .body-text {
@@ -299,7 +299,7 @@
   }
 
   .titre-expo {
-    padding-left: 200px;
+    padding-left: 120px;
   }
 
   .img-expo {
@@ -308,5 +308,15 @@
 
   .block-list {
     padding: 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .btn-page {
+    margin: 50px 0px 0px 280px;
+  }
+
+  .titre-expo {
+    padding-left: 100px;
   }
 }
