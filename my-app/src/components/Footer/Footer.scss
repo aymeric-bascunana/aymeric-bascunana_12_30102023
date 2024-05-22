@@ -1,6 +1,6 @@
 .Footer-Contenant {
   // padding: 10px;
-  height: 1000px;
+  height: 600px;
 
   &.light-theme {
     background-color: white;
@@ -41,21 +41,22 @@ span {
 .list-contact {
   color: white;
   display: flex;
-  gap: 250px;
+  gap: 30px;
   list-style: none;
 }
 
 .info-contact {
   display: flex;
   align-items: center;
-  gap: 250px;
+  // gap: 250px;
 }
 
 .titre-contact {
   font-size: 40px;
   color: cyan;
   border-bottom: solid 1px;
-  width: 80%;
+  width: 60%;
+  margin-left: 20px;
 }
 
 .tag-contact {
@@ -120,6 +121,9 @@ label {
 
   .titre-contact {
     font-size: 34px;
+    width: fit-content;
+    padding-right: 8px;
+    margin-left: 20px;
   }
 
   .list-contact {
@@ -128,6 +132,7 @@ label {
 
   #Body-text {
     padding-left: 30px;
+    gap: 0;
   }
 }
 
@@ -138,7 +143,9 @@ label {
 
   .titre-contact {
     font-size: 34px;
-    padding-right: 70px;
+    width: fit-content;
+    padding-right: 8px;
+    margin-left: 20px;
   }
 
   .list-contact {
@@ -160,10 +167,12 @@ label {
     text-align: left;
     margin: auto;
     width: 25%;
+    gap: 20px;
   }
 
   .info-contact {
     flex-direction: column;
+    gap: 40px;
     // padding-left: 20px;
     // width: 100%;
   }
@@ -171,6 +180,7 @@ label {
   .list-contact {
     flex-direction: column;
     width: max-content;
+    gap: 100px;
   }
 
   .contact-name {

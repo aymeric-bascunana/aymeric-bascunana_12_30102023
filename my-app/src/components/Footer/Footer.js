@@ -8,8 +8,8 @@ function Footer({ theme }) {
         id="Ancre-footer"
         className={`Footer-Contenant ${theme === "light" ? "light-theme" : ""}`}
       >
+        <h2 className="titre-contact">Contact</h2>
         <div id="Body-text">
-          <h2 className="titre-contact">Contact</h2>
           <div className="info-contact">
             <h3 className="contact-name">
               Aymeric <span className="Name"> Bascunana </span>

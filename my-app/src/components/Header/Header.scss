@@ -50,7 +50,7 @@
 
 .display-body {
   display: flex;
-  gap: 300px;
+  flex-wrap: wrap;
 }
 
 .logo-me {
@@ -58,6 +58,7 @@
   height: 356px;
   position: relative;
   top: 190px;
+  margin: auto;
 }
 
 //VERSION MOBIL
@@ -99,7 +100,7 @@
 
   .text {
     width: 70%;
-    font-size: 50px;
+    font-size: 45px;
   }
 
   .logo-me {
@@ -124,6 +125,5 @@
 @media (max-width: 576px) {
   #header-text {
     padding-left: 10px;
-    text-align: justify;
   }
 }

@@ -1,7 +1,7 @@
 .side-panel {
   position: fixed;
-
-  background-color: #000000db;
+  background-color: black;
+  // background-color: #000000db;
   padding: 10px;
   height: 100%;
   width: 220px;
@@ -12,7 +12,7 @@
   display: block;
   margin-bottom: 10px;
   padding: 8px 12px;
-  background-color: black;
+  background-color: #171717;
   color: #fff;
   border: none;
   border-radius: 20px;
@@ -130,13 +130,13 @@
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
+    z-index: 999;
   }
 
   .btn-mobil {
     display: flex;
     position: relative;
     top: 6px;
-    left: 190px;
     background-color: white;
     width: 50%;
     height: 48px;
@@ -145,6 +145,7 @@
     border-radius: 30px;
     color: black;
     align-items: center;
+    margin: auto;
   }
 
   .close {
@@ -154,7 +155,7 @@
     color: white;
     display: flex;
     font-size: 35px;
-    z-index: 1;
+    z-index: 1000;
   }
 
   .btn-theme {
@@ -184,16 +185,18 @@
     width: 12%;
   }
 
-  .btn-mobil {
-    left: 135px;
-  }
-
   .close {
-    right: 149px;
+    right: 280px;
   }
 
   .modal-panel {
     right: 60px;
-    left: auto;
+    // left: auto;
+  }
+}
+
+@media (max-width: 570px) {
+  .close {
+    right: 220px;
   }
 }

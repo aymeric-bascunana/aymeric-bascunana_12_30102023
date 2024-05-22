@@ -67,15 +67,17 @@
 .body-text {
   display: flex;
   flex-direction: row-reverse;
-  padding: 50px 150px;
+  justify-content: space-between;
+  width: 60%;
+  margin: auto;
 }
 
 .body-outils {
-  width: 40%;
+  width: 50%;
 }
 
 .body-info {
-  width: 40%;
+  width: 50%;
 }
 
 .image-logo {
@@ -83,7 +85,7 @@
   height: 334px;
   background-color: white;
   text-align: center;
-  margin-left: 400px;
+  margin: auto;
 
   .img-logo {
     position: relative;
@@ -97,7 +99,12 @@
   border-radius: 25px;
   border: none;
   cursor: pointer;
-  margin: 50px 0px 0px 750px;
+  margin-top: 50px;
+}
+
+.img-lien {
+  display: block;
+  text-align: center;
 }
 
 .btn-page:hover {
@@ -108,19 +115,22 @@
 
 .titre-expo {
   color: cyan;
-  padding-left: 850px;
+  text-align: center;
 }
 
 .img-expo {
   width: 60%;
   height: 401px;
-  padding-left: 350px;
   object-fit: cover;
+}
+
+.block-page {
+  text-align: center;
 }
 
 .info-projet-display {
   color: white;
-  padding-left: 500px;
+  text-align: center;
 }
 //VERSION MOBIL
 
@@ -150,10 +160,6 @@
 
   .body-info {
     width: 50%;
-  }
-
-  .titre-expo {
-    padding-left: 350px;
   }
 
   .img-expo {
@@ -220,10 +226,6 @@
     }
   }
 
-  .titre-expo {
-    padding-left: 300px;
-  }
-
   .img-expo {
     width: 100%;
     padding: 0;
@@ -249,10 +251,6 @@
 
   .image-logo {
     margin: 70px 0px 0px 5px;
-  }
-
-  .titre-expo {
-    padding-left: 210px;
   }
 }
 
@@ -298,10 +296,6 @@
     padding: 3px;
   }
 
-  .titre-expo {
-    padding-left: 120px;
-  }
-
   .img-expo {
     height: 258px;
   }
@@ -314,9 +308,5 @@
 @media (max-width: 400px) {
   .btn-page {
     margin: 50px 0px 0px 280px;
-  }
-
-  .titre-expo {
-    padding-left: 100px;
   }
 }

@@ -34,9 +34,9 @@ const Competence = ({ theme }) => {
         theme === "light" ? "light-theme" : ""
       }`}
     >
+      <h2 className="title-competence">Mes Compétences</h2>
       <div className="block-competence">
         <div className="competence">
-          <h2 className="title-competence">Mes Compétences</h2>
           <div className="competence-item">
             <span>HTML</span>
             <div className="barre">
