@@ -24,11 +24,12 @@
 .Projet-block {
   padding-left: 25px;
   display: flex;
+  align-items: center;
   gap: 100px;
 }
 
 .Block-page {
-  width: 90%;
+  // width: 90%;
   height: 331px;
   object-fit: cover;
   background-color: white;
@@ -36,18 +37,19 @@
   background-repeat: no-repeat;
   background-position: center;
   padding: 10px;
-  margin: auto;
+  // margin: auto;
 }
 .img-page {
   position: relative;
   top: 120px;
-  // width: 100%;
+  width: 100%;
   // left: 40px;
 }
 
 .Page-lien {
   color: transparent;
   text-decoration: none;
+  width: 40%;
 }
 
 .title-projet {
@@ -78,6 +80,10 @@
   .title-projet {
     font-size: 34px;
   }
+
+  .Page-lien {
+    width: 50%;
+  }
 }
 
 @media (max-width: 900px) {
@@ -94,6 +100,10 @@
     width: fit-content;
     padding-right: 8px;
     margin-left: 20px;
+  }
+
+  .Page-lien {
+    width: 60%;
   }
 }
 @media (max-width: 768px) {
@@ -153,6 +163,10 @@
   // .Block-page {
   //   width: 87%;
   // }
+
+  .Page-lien {
+    width: 70%;
+  }
 }
 
 @media (max-width: 576px) {

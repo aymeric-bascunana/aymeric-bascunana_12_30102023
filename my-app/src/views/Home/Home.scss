@@ -39,8 +39,11 @@ section {
 }
 
 body {
-  background-color: #171717;
-  padding: 1px;
+  background-color: white;
+  padding-top: 1px;
+  &.light-theme {
+    background-color: #171717;
+  }
 }
 
 .btn-theme {

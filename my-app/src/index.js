@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
@@ -12,21 +12,33 @@ import Printit from "./views/Projets/Printit/Projet_printit";
 
 // import About from "./views/About/About";
 // import Footer from "./components/footer/footer";
+function App() {
+  const [theme, setTheme] = useState("light");
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
-  //<App />
-  <React.StrictMode>
+  const toggleTheme = () => {
+    setTheme(theme === "light" ? "dark" : "light");
+  };
+  return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="Projet/Ohmyfood" element={<Ohmyfood />} />
+        <Route
+          path="Projet/Ohmyfood"
+          element={<Ohmyfood theme={theme} toggleTheme={toggleTheme} />}
+        />
         <Route path="Projet/Printit" element={<Printit />} />
 
         {/* <Route path="*" element={<Error />} /> */}
       </Routes>
       {/* <Footer /> */}
     </BrowserRouter>
+  );
+}
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+  <React.StrictMode>
+    <App />
   </React.StrictMode>
 );
 
