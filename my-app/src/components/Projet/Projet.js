@@ -10,7 +10,9 @@ function Projet({ theme }) {
   return (
     <section
       id="Ancre-projet"
-      className={`Projet-Contenant ${theme === "light" ? "light-theme" : ""}`}
+      className={`section-main Projet-Contenant ${
+        theme === "light" ? "light-theme" : ""
+      }`}
     >
       <h1 className="title-projet">Mes Projets</h1>
       <h2 className="info-projet">

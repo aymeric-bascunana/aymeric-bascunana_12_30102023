@@ -26,7 +26,10 @@ function App() {
           path="Projet/Ohmyfood"
           element={<Ohmyfood theme={theme} toggleTheme={toggleTheme} />}
         />
-        <Route path="Projet/Printit" element={<Printit />} />
+        <Route
+          path="Projet/Printit"
+          element={<Printit theme={theme} toggleTheme={toggleTheme} />}
+        />
 
         {/* <Route path="*" element={<Error />} /> */}
       </Routes>

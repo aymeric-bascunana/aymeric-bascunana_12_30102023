@@ -19,7 +19,7 @@
 
 .lien {
   position: absolute;
-  top: 30px;
+  top: 50px;
   left: 200px;
   font-size: 30px;
   color: white;
@@ -30,11 +30,32 @@
   color: cyan;
 }
 
+body {
+  background-color: #171717;
+
+  &.light-theme {
+    background-color: white;
+  }
+}
+
+.btn-theme-page {
+  position: absolute;
+  top: 25px;
+  right: 160px;
+  color: white;
+  border: none;
+  font-size: 30px;
+  z-index: 2;
+  background-color: transparent;
+  cursor: pointer;
+}
+
 .body-page {
   color: white;
-  margin: 10px;
-  position: relative;
-  padding: 0;
+  background-color: #171717;
+  // margin: 10px;
+  // position: relative;
+  // padding: 0;
   span {
     color: cyan;
   }
@@ -42,6 +63,49 @@
   &.light-theme {
     color: black;
     background-color: white;
+
+    span {
+      color: #da1010;
+    }
+
+    .type-projet {
+      color: #da1010;
+    }
+
+    .list-outil {
+      background-color: #da1010;
+    }
+
+    .btn-page:hover {
+      background-color: #da1010;
+    }
+
+    .lien:hover {
+      color: #da1010;
+    }
+
+    .lien {
+      color: black;
+    }
+
+    .header-page {
+      color: #da1010;
+    }
+
+    .titre-expo {
+      color: #da1010;
+    }
+
+    .btn-theme-page {
+      color: black;
+    }
+
+    .info-projet-display {
+      color: black;
+    }
+    // body {
+    //   background-color: white;
+    // }
   }
 }
 
@@ -164,11 +228,15 @@
 
   .img-expo {
     width: 70%;
-    padding-left: 140px;
+    // padding-left: 140px;
   }
 
   .list-outil {
-    width: 24%;
+    width: 53%;
+  }
+
+  .btn-theme-page {
+    top: 55px;
   }
 }
 
@@ -182,7 +250,7 @@
     color: white;
     margin: 10px;
     position: relative;
-    bottom: 358px;
+    // bottom: 358px;
   }
 
   .body-text {
@@ -202,7 +270,7 @@
 
   .lien {
     z-index: 2;
-    top: 50px;
+    top: 8px;
     left: 70px;
     font-size: 40px;
   }
@@ -230,6 +298,14 @@
     width: 100%;
     padding: 0;
   }
+
+  .block-list {
+    width: 25%;
+  }
+
+  .btn-theme-page {
+    right: 100px;
+  }
 }
 
 @media (max-width: 760px) {
@@ -238,7 +314,7 @@
   }
 
   .info-projet-display {
-    padding-top: 500px;
+    // padding-top: 500px;
     padding-left: 0;
     z-index: 0;
   }
@@ -303,10 +379,18 @@
   .block-list {
     padding: 0;
   }
+
+  .btn-theme-page {
+    right: 60px;
+  }
 }
 
 @media (max-width: 400px) {
   .btn-page {
     margin: 50px 0px 0px 280px;
+  }
+
+  .btn-theme-page {
+    right: 50px;
   }
 }

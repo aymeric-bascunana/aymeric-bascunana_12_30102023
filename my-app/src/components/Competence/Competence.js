@@ -30,7 +30,7 @@ const Competence = ({ theme }) => {
   return (
     <section
       id="Ancre-competence"
-      className={`Competence-Contenant ${
+      className={`section-main Competence-Contenant ${
         theme === "light" ? "light-theme" : ""
       }`}
     >

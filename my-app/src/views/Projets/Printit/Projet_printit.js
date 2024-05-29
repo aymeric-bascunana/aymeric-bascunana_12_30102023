@@ -7,17 +7,32 @@ import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import { NavLink } from "react-router-dom";
 import titrePrintit from "../../../assets/TitrePrintit.PNG";
 import pagecarouselprintit from "../../../assets/PageCarouselPrintit.PNG";
+import { faSun, faMoon } from "@fortawesome/free-solid-svg-icons";
 
 function Printit({ theme, toggleTheme }) {
   return (
     <>
-      <NavLink className="lien" activeClassName="active" exact to="/">
-        <FontAwesomeIcon icon={faArrowLeft} />
-      </NavLink>
-      <h1 className="header-page">Print it! </h1>
       <section
         className={`body-page ${theme === "light" ? "light-theme" : ""}`}
       >
+        <NavLink className="lien" activeClassName="active" exact to="/">
+          <FontAwesomeIcon icon={faArrowLeft} />
+        </NavLink>
+        <h1 className="header-page">Print it! </h1>
+        <button
+          className="btn-theme-page"
+          onClick={toggleTheme}
+          aria-label={
+            theme === "light" ? "Switch to Dark Theme" : "Switch to Light Theme"
+          }
+        >
+          {theme === "light" ? (
+            <FontAwesomeIcon icon={faSun} />
+          ) : (
+            <FontAwesomeIcon icon={faMoon} />
+          )}
+          {theme === "light"}
+        </button>
         <h2 className="info-projet">
           Voici l'un de mes projet réaliser où j'ai dû modifier un site web pour
           Print it!

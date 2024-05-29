@@ -6,7 +6,9 @@ function Footer({ theme }) {
     <>
       <section
         id="Ancre-footer"
-        className={`Footer-Contenant ${theme === "light" ? "light-theme" : ""}`}
+        className={`section-main Footer-Contenant ${
+          theme === "light" ? "light-theme" : ""
+        }`}
       >
         <h2 className="titre-contact">Contact</h2>
         <div id="Body-text">

@@ -10,33 +10,33 @@ import accueilohmyfood from "../../../assets/accueilohmyfood.PNG";
 import menuohmyfood from "../../../assets/Menuohmyfood.PNG";
 import commandeohmyfood from "../../../assets/Commandeohmyfood.PNG";
 import commande2ohmyfood from "../../../assets/Commande2ohmyfood.PNG";
-// import { faSun, faMoon } from "@fortawesome/free-solid-svg-icons";
+import { faSun, faMoon } from "@fortawesome/free-solid-svg-icons";
 
 function Ohmyfood({ theme, toggleTheme }) {
   return (
     <>
-      <NavLink className="lien" activeClassName="active" exact to="/">
-        <FontAwesomeIcon icon={faArrowLeft} />
-      </NavLink>
-      {/* <img className="header-page1" src={image}></img> */}
-      <h1 className="header-page">Ohmyfood </h1>
-      {/* <button
-        className="btn-theme"
-        onClick={toggleTheme}
-        aria-label={
-          theme === "light" ? "Switch to Dark Theme" : "Switch to Light Theme"
-        }
-      >
-        {theme === "light" ? (
-          <FontAwesomeIcon icon={faSun} />
-        ) : (
-          <FontAwesomeIcon icon={faMoon} />
-        )}
-        {theme === "light"}
-      </button> */}
       <section
         className={`body-page ${theme === "light" ? "light-theme" : ""}`}
       >
+        <NavLink className="lien" activeClassName="active" exact to="/">
+          <FontAwesomeIcon icon={faArrowLeft} />
+        </NavLink>
+        {/* <img className="header-page1" src={image}></img> */}
+        <h1 className="header-page">Ohmyfood </h1>
+        <button
+          className="btn-theme-page"
+          onClick={toggleTheme}
+          aria-label={
+            theme === "light" ? "Switch to Dark Theme" : "Switch to Light Theme"
+          }
+        >
+          {theme === "light" ? (
+            <FontAwesomeIcon icon={faSun} />
+          ) : (
+            <FontAwesomeIcon icon={faMoon} />
+          )}
+          {theme === "light"}
+        </button>
         <h2 className="info-projet-display">
           Voici l'un de mes projet réaliser où j'ai dû créer un site web pour
           Ohmyfood <span> .</span>

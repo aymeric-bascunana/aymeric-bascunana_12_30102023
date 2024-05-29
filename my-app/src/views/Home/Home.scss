@@ -33,18 +33,18 @@ main {
   padding-left: 240px;
 }
 
-section {
+.section-main {
   background-color: #171717;
   padding-top: 200px;
 }
 
-body {
-  background-color: white;
-  padding-top: 1px;
-  &.light-theme {
-    background-color: #171717;
-  }
-}
+// body {
+//   background-color: white;
+//   padding-top: 1px;
+//   &.light-theme {
+//     background-color: #171717;
+//   }
+// }
 
 .btn-theme {
   position: fixed;

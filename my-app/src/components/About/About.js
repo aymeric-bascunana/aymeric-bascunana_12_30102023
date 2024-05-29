@@ -8,7 +8,9 @@ function About({ theme }) {
     <>
       <section
         id="Ancre-about"
-        className={`About-Contenant ${theme === "light" ? "light-theme" : ""}`}
+        className={`section-main About-Contenant ${
+          theme === "light" ? "light-theme" : ""
+        }`}
       >
         {/* <img className="ordi-background" src={ordi}></img> */}
         {/* <div className="block-phone">
