@@ -1,8 +1,8 @@
 {
-  "homepage": "https://aymeric.github.io/aymeric-bascunana_12_30102023",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://aymeric.github.io/aymeric-bascunana_12_30102023",
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.4.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
@@ -24,6 +24,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
