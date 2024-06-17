@@ -19,7 +19,7 @@ function App() {
     setTheme(theme === "light" ? "dark" : "light");
   };
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/aymeric-bascunana_12_30102023">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route
