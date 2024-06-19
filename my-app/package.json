@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://aymeric.github.io/aymeric-bascunana_12_30102023",
+  "homepage": "https://aymeric-bascunana.github.io/React-app-projet12/",
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.4.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
