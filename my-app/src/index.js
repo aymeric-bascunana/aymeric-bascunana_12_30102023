@@ -19,7 +19,7 @@ function App() {
     setTheme(theme === "light" ? "dark" : "light");
   };
   return (
-    <BrowserRouter basename="/React-app-projet12">
+    <BrowserRouter basename="/aymeric-bascunana_12_30102023">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route
