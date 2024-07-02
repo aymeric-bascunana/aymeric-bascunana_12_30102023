@@ -19,15 +19,15 @@ function App() {
     setTheme(theme === "light" ? "dark" : "light");
   };
   return (
-    <BrowserRouter basename="/aymeric-bascunana_12_30102023">
+    <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/React-app-projet12" element={<Home />} />
         <Route
-          path="Projet/Ohmyfood"
+          path="React-app-projet12/Projet/Ohmyfood"
           element={<Ohmyfood theme={theme} toggleTheme={toggleTheme} />}
         />
         <Route
-          path="Projet/Printit"
+          path="React-app-projet12/Projet/Printit"
           element={<Printit theme={theme} toggleTheme={toggleTheme} />}
         />
 

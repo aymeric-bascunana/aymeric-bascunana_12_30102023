@@ -18,7 +18,12 @@ function Ohmyfood({ theme, toggleTheme }) {
       <section
         className={`body-page ${theme === "light" ? "light-theme" : ""}`}
       >
-        <NavLink className="lien" activeClassName="active" exact to="/">
+        <NavLink
+          id="lien"
+          activeClassName="active"
+          exact
+          to="/React-app-projet12"
+        >
           <FontAwesomeIcon icon={faArrowLeft} />
         </NavLink>
         {/* <img className="header-page1" src={image}></img> */}

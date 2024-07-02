@@ -18,15 +18,16 @@
   opacity: 0.8;
 }
 
-.lien {
+#lien {
   position: absolute;
   top: 15px;
   left: 200px;
   font-size: 30px;
+  background-color: transparent;
   color: white;
 }
 
-.lien:hover {
+#lien:hover {
   font-size: 33px;
   color: cyan;
 }
@@ -104,6 +105,10 @@ body {
     .info-projet-display {
       color: black;
     }
+
+    #lien {
+      color: black;
+    }
     // body {
     //   background-color: white;
     // }
@@ -154,7 +159,7 @@ body {
 
   .img-logo {
     position: relative;
-    top: 110px;
+    top: 60px;
     width: 100%;
   }
 }
