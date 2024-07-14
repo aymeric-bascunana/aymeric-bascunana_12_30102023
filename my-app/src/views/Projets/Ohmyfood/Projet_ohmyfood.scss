@@ -159,8 +159,8 @@ body {
 
   .img-logo {
     position: relative;
-    top: 60px;
-    width: 100%;
+    top: 100px;
+    width: auto;
   }
 }
 
@@ -356,6 +356,10 @@ body {
 
   .image-logo {
     height: 285px;
+
+    .img-logo {
+      width: 100%;
+    }
   }
 
   // .img-lien {
@@ -403,5 +407,9 @@ body {
 
   .btn-theme-page {
     right: 5px;
+  }
+
+  .img-logo {
+    width: 100%;
   }
 }
